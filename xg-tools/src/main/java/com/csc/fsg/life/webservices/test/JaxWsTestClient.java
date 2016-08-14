@@ -50,7 +50,7 @@ public class JaxWsTestClient {
 	private static final int TIME_OUT = 300000;
 	private static final String MAP = "Map";
 	private static final String URN = "urn:";
-	private static final String SERVICE = "nitin serviec1";
+	private static final String SERVICE = "nitin serviec2";
 	private static final String MAP_NAMESPACE = "urn:TxMapService";
 	private static final String MAP_LOCATOR = "MapLocator";
 	private static final String MAP_LOCATOR_NAMESPACE = "urn:MapLocatorService";
