@@ -55,7 +55,7 @@ public class JaxWsTestClient {
 	private static final String MAP_LOCATOR = "MapLocator";
 	private static final String MAP_LOCATOR_NAMESPACE = "urn:MapLocatorService";
 	private static final String WEBSERVICES_NAMESPACE = "http://ws.xg.life.fsg.csc.com/";
-	private static final String XG_FAULT_DIR = "XG_FAULT_DIR";
+	private static final String XG_FAULT_DIR = "XG_FAULT_DIRR";
 	public JaxWsTestClient() {
 	}
 
