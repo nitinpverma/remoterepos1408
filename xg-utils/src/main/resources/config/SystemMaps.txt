@@ -1,0 +1,7 @@
+AccordSuccess.xml
+CopyObjectErrorResponse.xml
+ErrorResponse.xml
+MissingElementError.xml
+ObjectNotFoundError.xml
+SystemNotAvailableError.xml
+VantageErrorResponse.xml

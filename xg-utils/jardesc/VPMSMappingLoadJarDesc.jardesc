@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+    <jar path="D:/VPMSMappingLoadUtility/VPMSMappingLoad.jar"/>
+    <options buildIfNeeded="true" compress="true"
+        descriptionLocation="/xgUtilities/VPMSMappingLoadJarDesc.jardesc"
+        exportErrors="true" exportWarnings="true" overwrite="false"
+        saveDescription="true" useSourceFolders="false"/>
+    <manifest generateManifest="true"
+        mainClassHandleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.vpms.generators{MappingLoader.java[MappingLoader"
+        manifestLocation="" manifestVersion="1.0" reuseManifest="false"
+        saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false">
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnMgrException.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dao.dataaccessor{DAOUtils.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnMgr.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.vpms.generators{MappingLoader.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ConfigException.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ConfigFileNames.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{IConnMgr.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dao.dataaccessor{DataAccessor.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{XMLConfiguration.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ConfigurationFactory.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{DB2ConnMgr.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dao.model{DAOModel.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnMgrFactory.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ISectionList.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.exceptions"/>
+        <javaElement handleIdentifier="=xgdb/source&lt;com.csc.fsg.life.vpms.dao.dataaccessor"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.common.util{StringParserList.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{IConfiguration.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnectionConfig.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dao.model{DAOModelCollection.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dao.model{DAOModelException.java"/>
+        <javaElement handleIdentifier="=xgdb/source&lt;com.csc.fsg.life.vpms.dao.model"/>
+    </selectedElements>
+</jardesc>

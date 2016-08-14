@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.csc.fsg.life.xg.testClient.WSMainFrame
+Class-Path: saaj.jar axis.jar jaxrpc.jar commons-discovery.jar commons-logging.jar xml-apis.jar looks-2.1.3.jar tcUI-p.jar WebserviceTester.jar

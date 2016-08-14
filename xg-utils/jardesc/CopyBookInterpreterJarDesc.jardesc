@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+    <jar path="C:/CopyBookInterpreter/CopyBookInterpreter.jar"/>
+    <options buildIfNeeded="true" compress="true"
+        descriptionLocation="/xgUtilities/CopyBookInterpreterJarDesc.jardesc"
+        exportErrors="true" exportWarnings="true" overwrite="false"
+        saveDescription="true" useSourceFolders="false"/>
+    <manifest generateManifest="true"
+        mainClassHandleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdriver{CIFtpDriver.java[CIFtpDriver"
+        manifestLocation="" manifestVersion="1.0" reuseManifest="false"
+        saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false">
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ConfigException.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ConfigFileNames.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ConfigurationFactory.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{IConfiguration.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ISectionList.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{ISection.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{XMLConfiguration.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{XMLSectionList.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.configuration{XMLSection.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnMgr.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnMgrException.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnMgrFactory.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{ConnectionConfig.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{DB2ConnMgr.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.dbutils{IConnMgr.java"/>
+        <javaElement handleIdentifier="=lifeCommon/source&lt;com.csc.fsg.life.exceptions{BaseException.java"/>
+        <javaElement handleIdentifier="=xgCommon/source&lt;com.csc.fsg.life.xg.copybook.translator.tree.composite{FieldDefinitionEntry.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{CompletedGroup.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{CopybookFile.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{CopybookInterpreterException.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{CopybookInterpreter.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{FieldDefinitionTable.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{FieldInformation.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{GroupEntry.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{GroupTable.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{OffsetEntry.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreter{OffsetTable.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdatabases{CIPDEF.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdatabases{DataBaseException.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdatabases{CIPTBL.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdatabases{PRSHTBL.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdriver{CIFtpDriver.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdriver{CopybookFTPer.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.copybookinterpreterdriver{Library.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.plugins{PluginException.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.plugins.ftp{FTPClient.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.plugins.ftp{FTPConnectMode.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.plugins.ftp{FTPControlSocket.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.plugins.ftp{FTPDataSocket.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.plugins.ftp{FTPException.java"/>
+        <javaElement handleIdentifier="=xgUtilities/source&lt;com.csc.fsg.life.xg.plugins.ftp{FTPTransferType.java"/>
+    </selectedElements>
+</jardesc>

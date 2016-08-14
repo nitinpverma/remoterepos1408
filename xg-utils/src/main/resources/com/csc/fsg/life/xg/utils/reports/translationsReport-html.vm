@@ -1,0 +1,90 @@
+#**
+Input fields :
+translationNamese - List<String>
+funcsUtil - FunctionUtils
+*#
+## loop thro' translation list
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Translations Report</title>
+</head>
+<body>
+	<h1 align="center">Translations Report</h1><hr>
+#foreach($translName in $translationNames)
+## get primitive
+#set ( $translation = $funcsUtil.getTranslation($translName))
+## Get Translation Model
+#set ( $translationModel = $funcsUtil.getTranslationExpression($translation))
+#set ( $functionName = $translationModel.getFunctionName())
+<b>Translation Name : <font color="blue">$functionName</font></b> <br>
+Description : $translationModel.getDesc()<br>
+## get Column meta data
+#set ( $columnMetaData = $translationModel.getColumnMetaData())
+	<br><b>Table Meta Data :</b> 
+		<table border>
+			<thead>
+				<tr>
+					<th> Column Name </th> 
+					<th> Type </th>
+					<th> Size </th>
+				</tr>
+			</thead>
+#set ( $columns = $columnMetaData.getColumns())
+#foreach($column in $columns)
+		<tr>
+			<td>$column.getDisplayName()</td>
+			<td>#if($column.getColType()==1)String#else.Number#end</td>
+			<td>$column.getColSize()</td>
+		</tr>
+#end
+		</table>
+## get variations from translation model
+
+#set ( $variations = $translationModel.getVariations())
+    <br><b>Variations :</b> 
+	<table border>
+		<thead>
+			<tr>
+				<th> Variation Name </th>
+				<th> Input Columns </th> 
+				<th> Output Columns </th>
+				<th> Description </th>				
+			</tr>
+		</thead>
+#foreach($variation in $variations) 
+		<tr>
+#set ( $inputColumns = $variation.getInputColumns())
+#set ( $sb = "")
+#foreach($inputColumn in $inputColumns)
+#set ($sb = $sb + $columnMetaData.getColumnDisplayName($inputColumn) + ";")
+#end ## end of input columns
+#set ($sb = $sb.substring(0, $sb.lastIndexOf(";")))
+			<td>$variation.getHandlerClass()</td>
+			<td>$sb</td>
+			<td>$columnMetaData.getColumnDisplayName($variation.getOutputColumn())</td>
+			<td>$variation.getVarDesc()</td>
+		</tr>
+#end
+	</table>
+#set( $columns = $columnMetaData.getColumns())
+#set ($sb = "")
+    <br><b>Data :</b>
+	<table border>
+		<thead>
+			<tr>
+#foreach($tlColumn in $columns) 
+				<th> $tlColumn.getDisplayName() </th> 
+#end ## end of data columns
+			</tr>
+		</thead>
+#set ($data = $translationModel.getData())
+#foreach($tlJets in $data)
+		<tr><td>$tlJets.toData("</td><td>")</td></tr>
+#end## end of data
+	</table>
+    <hr/>
+#end## end of translation names
+</body>
+</html>    

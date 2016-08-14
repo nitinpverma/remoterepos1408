@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="xmlgConfig" class="com.csc.fsg.life.xg.db.ApplicationConfig" singleton="true">
+		<property name="copybookOccursLimit" value="4" />
+		<property name="defaultPassword" value="password" />
+		<property name="externalTranslationAdapters">
+			<props>
+				<!-- prop key="jets">com.csc.fsg.life.xg.translation.DummyTranslationSystem1</prop-->
+			</props>
+		</property>
+		<property name="dataSources">
+			<map>
+				<entry key="TST" value-ref="TST" />
+				<entry key="BASE" value-ref="BASE"/>
+				<entry key="WMA" value-ref="WMA" />
+				<entry key="WMA0720" value-ref="WMA0720" />
+			</map>
+		</property>
+	</bean>
+	<bean id="TST" class="com.csc.fsg.life.xg.db.EnvironmentBean">
+		<property name="dbSchema" value="BASE" />
+		<property name="xmlgWorkDir" value="D:\XMLG\TST" />
+		<property name="description" value="TST" />
+		<property name="jndiDataSource" ref="XGDataSource" />
+		<property name="mapperDB">
+			<value type="boolean">true</value>
+		</property>
+	</bean>
+	<bean id="WMA0720" class="com.csc.fsg.life.xg.db.EnvironmentBean">
+		<property name="dbSchema" value="WMA0720" />
+		<property name="xmlgWorkDir" value="D:\XMLG\WMA0720" />
+		<property name="description" value="WMA0720" />
+		<property name="jndiDataSource" ref="XGDataSource" />
+		<property name="mapperDB">
+			<value type="boolean">true</value>
+		</property>
+	</bean>
+
+	<bean id="BASE" class="com.csc.fsg.life.xg.db.EnvironmentBean">
+		<property name="dbSchema" value="BASE" />
+		<property name="xmlgWorkDir" value="D:\XMLG\vtgBase" />
+		<property name="description" value="BASE" />
+		<property name="jndiDataSource" ref="XGDataSource" />
+		<property name="mapperDB">
+			<value type="boolean">true</value>
+		</property>
+	</bean>
+	
+	<bean id="WMA" class="com.csc.fsg.life.xg.db.EnvironmentBean">
+		<property name="xmlgWorkDir" value="D:\XMLG\WMA" />
+		<property name="description" value="WMA" />
+		<property name="mapperDB">
+			<value type="boolean">true</value>
+		</property>
+	</bean>
+	<bean id="XGDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="com.ibm.db2.jcc.DB2Driver" />
+		<property name="url" value="jdbc:db2://cscdbbehc004:50070/XGPRDA" />
+		<property name="username" value="db2admin" />
+		<property name="password" value="DB2@min5" />
+	</bean>
+</beans>

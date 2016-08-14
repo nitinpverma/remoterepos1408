@@ -1,0 +1,17 @@
+#**
+Input fields :
+cTransformationNames - List<String>
+funcsUtil - FunctionUtils
+*#
+## loop thro' list
+#foreach($transfName in $cTransformationNames)
+## get primitive
+#set ( $transformation = $funcsUtil.getComplexTransformation($transfName))
+Transformation Name : $transformation.getHandlerClassPath()
+#set ($desc = $transformation.getDescription())
+Description : #if($desc != $null) $desc #end
+
+Expression : 
+	$transformation.getExpressionClass()
+
+#end## enf of translation names

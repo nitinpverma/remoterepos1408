@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="XGDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="com.ibm.db2.jcc.DB2Driver" />
+		<property name="url" value="jdbc:db2://cscdbbehc004:50070/XGPRDA" />
+		<property name="username" value="db2admin" />
+		<property name="password" value="DB2@min5" />
+	</bean>
+	<bean id="MFEDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="mf.jdbc.DFDriver"/>
+		<property name="url" value="jdbc:mf://20.17.52.138:8898@XDBTST99?timeout=-1"/>
+		<property name="username" value="VCSTST93"/>
+		<property name="password" value=""/>
+	</bean>
+	<bean id="avm" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="com.ibm.db2.jcc.DB2Driver" />
+		<property name="url" value="jdbc:db2://cscdbbehc004:50001/AVMPRDA" />
+		<property name="username" value="db2admin" />
+		<property name="password" value="DB2@min5" />
+	</bean>
+	<!-- DATASOURCE FOR AVM -->
+	<!-- bean id="avm" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="java:comp/env/jdbc/avmDataSource" />
+	</bean-->
+
+	<!-- DATASOURCE FOR PPFA EXTERNAL TRANSLATION ADAPTER -->
+	<bean id="PPFADataSource" class="org.springframework.jndi.JndiObjectFactoryBean" lazy-init="true">
+		<property name="jndiName" value="java:comp/env/jdbc/PPFADataSource" />
+	</bean>
+
+	<!-- DATASOURCE FOR JETS EXTERNAL TRANSLATION ADAPTER -->
+	<bean id="JETSDataSource" class="org.springframework.jndi.JndiObjectFactoryBean" lazy-init="true">
+		<property name="jndiName" value="java:comp/env/jdbc/JETSDataSource" />
+	</bean>
+</beans>
