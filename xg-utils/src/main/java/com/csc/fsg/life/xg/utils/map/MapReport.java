@@ -30,7 +30,7 @@ public class MapReport {
 		}
 
 		String mapName = file.getAbsolutePath();
-		System.out.println("Map : " + mapName);
+		System.out.println("Map change 1 : " + mapName);
 		Element root = ExportImport.parseInput(new File(mapName));
 		try {
 			checkExpressions(root);
