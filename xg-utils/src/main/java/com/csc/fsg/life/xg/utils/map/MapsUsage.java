@@ -32,7 +32,7 @@ public class MapsUsage {
 
 	private static final Log log = LogFactory.getLog(MapsUsage.class);
 
-	private static final String ELM_SYSTEM = "System chane 1";
+	private static final String ELM_SYSTEM = "System chane 3";
 	private static final String ELM_EVENT = "Event";
 	private static final String ELM_PARAMETER = "parameter";
 	private static final String ELM_SERVICE = "Service";
