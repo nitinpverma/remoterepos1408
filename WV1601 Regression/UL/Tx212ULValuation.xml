@@ -6,7 +6,7 @@
 		<TransType tc="212"/>
 		<OLifE>
 			<Holding id="Holding_1">
-				<AsOfDate>2010-10-04</AsOfDate>
+				<AsOfDate>2010-10-02</AsOfDate>
 				<Policy id="Policy_1">
 					<PolNumber>ULREGR004</PolNumber>
 					<CarrierCode>VCS</CarrierCode>

@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<map lastChangeUser="nverma30" lastChangeTime="2016-05-02 16:55:33.172" label="107SysWithChgAnnRequest_2ndMay" description="backup taken after Marek's work on deletion rules">
+	<datasource type="X" system="WMA" schemaRoot="TXLife" label="TXLife 2.8.92" isSource="Y" identifier="TXLife2.8.92.xsd-WMA" filePath="TXLife2.8.92.xsd" description="Update Checked"/>
+	<datasource type="C" system="WMA" schemaRoot="" label="CXGDFLPO" isSource="N" identifier="CXGDFLPO-WMA" filePath="CXGDFLPO" description=""/>
+	<mapElement targetPath="CXGDFLPO(00)" occursSpecific="N">
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT" primaryPath="TXLife/TXLifeRequest/OLifE/Holding/Arrangement" occursSpecific="N">
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAY-1-REM-IND" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/AltPayRemain/@tc">
+			<function type="F" ruleLevel="L" label="ACORDAltPayRemain_ForAllTrans_ACtoV12039041045" isComplex="N" handlerClass="ACORDAltPayRemain_ForAllTrans_ACtoV12039041045"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)" primaryPath="TXLife/TXLifeRequest/OLifE/Party" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="AltPayeeFilter" isComplex="N" handlerClass="AltPayeeFilter"/>
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-1ST-MID-NAME" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Person/FirstName"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ACCOUNT-NUMBER" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/AccountNumber">
+			<function type="F" ruleLevel="L" label="GetAltPayeeAccountNumber" isComplex="N" handlerClass="GetAltPayeeAccountNumber"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ACCOUNT-TYPE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/BankAcctType/@tc">
+			<function type="F" ruleLevel="L" label="GetEFTTypeNew" isComplex="N" handlerClass="GetEFTTypeNew"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ADDRESS-1" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/Line1"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ADDRESS-2" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/Line2"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ADDRESS-3" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/Line3"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ADDRESS-4" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/OLifEExtension/AddressExtension/Line4"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ADDRESS-5/ALT-PAYEE-CITY" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/City"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ADDRESS-5/ALT-PAYEE-STATE" occursSpecific="N">
+		<function type="F" ruleLevel="L" label="ACORDStateCodes_ACtoV628113891" isComplex="N" handlerClass="ACORDStateCodes_ACtoV628113891"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/AddressStateTC/@tc"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-BANK-NAME" occursSpecific="N">
+		<srcElement type="K" sourcePath="">
+			<rule type="R" ruleLevel="L" label="BankName" isComplex="N" handlerClass="BankName"/>
+			<function type="F" ruleLevel="L" label="GetBankName" isComplex="N" handlerClass="GetBankName"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-CLIENT-CODE" occursSpecific="N">
+		<srcElement type="K" sourcePath="C">
+			<rule type="R" ruleLevel="L" label="AltPayeeDBA" isComplex="N" handlerClass="AltPayeeDBA"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="I">
+			<rule type="R" ruleLevel="L" label="AltPayeeLastName" isComplex="N" handlerClass="AltPayeeLastName"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-CNTRY-CODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/AddressCountryTC/@tc">
+			<function type="F" ruleLevel="L" label="ACORDCountryCode_ACtoV1275883752" isComplex="N" handlerClass="ACORDCountryCode_ACtoV1275883752"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-CORPORATE-NAME" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Organization/DBA"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-CREDIT-CARD-TYPE" occursSpecific="N">
+		<srcElement type="K" sourcePath="9">
+			<rule type="R" ruleLevel="L" label="DeleteAltPayee" isComplex="N" handlerClass="DeleteAltPayee"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-DIR-ID" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/PartyKey">
+			<function type="F" ruleLevel="L" label="RightJustify158768414" isComplex="N" handlerClass="RightJustify158768414"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-DISB-IND" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrDestination(0)/OLifEExtension/ArrDestinationExtension/PaymentForm/@tc">
+			<function type="F" ruleLevel="L" label="TenantDisbursementInd" isComplex="N" handlerClass="TenantDisbursementInd"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-EFT-ID" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/OLifEExtension(0)/BankingExtension/EftID">
+			<rule type="R" ruleLevel="L" label="AltPayeeEftId" isComplex="N" handlerClass="AltPayeeEftId"/>
+			<function type="F" ruleLevel="L" label="BankEftID" isComplex="N" handlerClass="BankEftID"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="9999">
+			<rule type="R" ruleLevel="L" label="DeleteAltPayeeEftId" isComplex="N" handlerClass="DeleteAltPayeeEftId"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-LAST-NAME" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Person/LastName">
+			<rule type="R" ruleLevel="L" label="AltPayeeLastName" isComplex="N" handlerClass="AltPayeeLastName"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Organization/DBA">
+			<rule type="R" ruleLevel="L" label="AltPayeeDBA" isComplex="N" handlerClass="AltPayeeDBA"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-PREFIX" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Person/Prefix"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-SUFFIX" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Person/Suffix"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-TAX-ID-NUMBER/ALT-PAYEE-TAX-ID-NO" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/GovtID"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-TAX-ID-NUMBER/ALT-PAYEE-TAX-ID-SUFFIX" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/GovtIDTC/@tc">
+			<function type="F" ruleLevel="L" label="ACORDGovtidtc_ACtoV11610212803" isComplex="N" handlerClass="ACORDGovtidtc_ACtoV11610212803"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-TRANSIT-NUMBER" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/RoutingNum">
+			<function type="F" ruleLevel="L" label="GetAltPayeeTransitNumber" isComplex="N" handlerClass="GetAltPayeeTransitNumber"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-TRX-AMOUNT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrDestination(0)/TransferAmt">
+			<rule type="R" ruleLevel="L" label="LengthOfAltPayTrxAmt" isComplex="N" handlerClass="LengthOfAltPayTrxAmt"/>
+			<function type="F" ruleLevel="L" label="Tx105TransferAmt" isComplex="N" handlerClass="Tx105TransferAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-TRX-PERCENT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrDestination(0)/TransferPct">
+			<rule type="R" ruleLevel="L" label="ChgAltPayPct5" isComplex="N" handlerClass="ChgAltPayPct5"/>
+			<function type="F" ruleLevel="L" label="Tx105TransferPct" isComplex="N" handlerClass="Tx105TransferPct"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ZIP-POSTAL-CODE/ALT-PAYEE-ZIP-CODE-4" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/OLifEExtension/AddressExtension/ZipCodeTC"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/ALT-PAYEE-CURRENT-INFO/ALT-PAYEE-INFO(001)/ALT-PAYEE-ZIP-POSTAL-CODE/ALT-PAYEE-ZIP-CODE-5" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Address(0)/Zip"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT" primaryPath="TXLife/TXLifeRequest/OLifE" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="AltPayeeRemainInd" isComplex="N" handlerClass="AltPayeeRemainInd"/>
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)" primaryPath="TXLife/TXLifeRequest/OLifE/Holding/Banking" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TenantBankingInfoAvailable" isComplex="N" handlerClass="TenantBankingInfoAvailable"/>
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)/TEN-ACCOUNT-NUMBER" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TenantPaymentForm" isComplex="N" handlerClass="TenantPaymentForm"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/AccountNumber"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)/TEN-ACCOUNT-TYPE" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TenantPaymentForm" isComplex="N" handlerClass="TenantPaymentForm"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/BankAcctType/@tc"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)/TEN-BANK-NAME" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TenantPaymentForm" isComplex="N" handlerClass="TenantPaymentForm"/>
+		<function type="F" ruleLevel="L" label="GetBankNameForTenant" isComplex="N" handlerClass="GetBankNameForTenant"/>
+		<srcElement type="K" sourcePath="Bank Name"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)/TEN-DIR-ID" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TenantPaymentForm" isComplex="N" handlerClass="TenantPaymentForm"/>
+		<function type="F" ruleLevel="L" label="GetBankIdForTenant" isComplex="N" handlerClass="GetBankIdForTenant"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/PartyKey"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)/TEN-DISB-IND" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TenantPaymentForm" isComplex="N" handlerClass="TenantPaymentForm"/>
+		<function type="F" ruleLevel="L" label="GetTenantDisbursementInd" isComplex="N" handlerClass="GetTenantDisbursementInd"/>
+		<srcElement type="K" sourcePath="DISB_IND"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)/TEN-EFT-ID" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/OLifEExtension(0)/BankingExtension/EftID"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT/TENANT-INFO-CURRENT/TEN-INFO(001)/TEN-TRANSIT-NUMBER" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TenantPaymentForm" isComplex="N" handlerClass="TenantPaymentForm"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/RoutingNum"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/HEADER-INFO/PRODUCT-CODE" occursSpecific="N">
+		<srcElement type="K" sourcePath="Product">
+			<function type="F" ruleLevel="L" label="ProductCodeFunctionNEW" isComplex="N" handlerClass="ProductCodeFunctionNEW"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/HEADER-INFO/REVERSAL-CODE" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="NAA1Reversal" isComplex="N" handlerClass="NAA1Reversal"/>
+		<srcElement type="K" sourcePath="R"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/HEADER-INFO/REVERSAL-FILE-CODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/FinancialActivity(0)/ReferenceNo"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY" primaryPath="TXLife/TXLifeRequest/OLifE/Holding/Arrangement" occursSpecific="N">
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/COMPANY-CODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/CarrierCode"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/EFFECTIVE-DATE" occursSpecific="N">
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/EFFECTIVE-DATE/EFFECTIVE-DA" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/TransactionEffectiveDate">
+			<rule type="R" ruleLevel="L" label="NoReversal" isComplex="N" handlerClass="NoReversal"/>
+			<function type="F" ruleLevel="L" label="Substring643686127" isComplex="N" handlerClass="Substring643686127"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/FinancialActivity(0)/FinEffDate">
+			<rule type="R" ruleLevel="L" label="ReversalFinActivitySubType" isComplex="N" handlerClass="ReversalFinActivitySubType"/>
+			<function type="F" ruleLevel="L" label="Substring1649030063" isComplex="N" handlerClass="Substring1649030063"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/EFFECTIVE-DATE/EFFECTIVE-MO" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/TransactionEffectiveDate">
+			<rule type="R" ruleLevel="L" label="NoReversal" isComplex="N" handlerClass="NoReversal"/>
+			<function type="F" ruleLevel="L" label="Substring5495120" isComplex="N" handlerClass="Substring5495120"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/FinancialActivity(0)/FinEffDate">
+			<rule type="R" ruleLevel="L" label="ReversalFinActivitySubType" isComplex="N" handlerClass="ReversalFinActivitySubType"/>
+			<function type="F" ruleLevel="L" label="Substring1825696956" isComplex="N" handlerClass="Substring1825696956"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/EFFECTIVE-DATE/EFFECTIVE-YR" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/TransactionEffectiveDate">
+			<rule type="R" ruleLevel="L" label="NoReversal" isComplex="N" handlerClass="NoReversal"/>
+			<function type="F" ruleLevel="L" label="Substring1626680843" isComplex="N" handlerClass="Substring1626680843"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/FinancialActivity(0)/FinEffDate">
+			<rule type="R" ruleLevel="L" label="ReversalFinActivitySubType" isComplex="N" handlerClass="ReversalFinActivitySubType"/>
+			<function type="F" ruleLevel="L" label="Substring2070610257" isComplex="N" handlerClass="Substring2070610257"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/MASTER-ID" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/PolNumber">
+			<function type="F" ruleLevel="L" label="RightJustify511734616" isComplex="N" handlerClass="RightJustify511734616"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/SEQUENCE-NO" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrangementKey"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/TRX-CODE/FILLER" occursSpecific="N">
+		<srcElement type="K" sourcePath="POI"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-RETRIEVAL-KEY/TRX-SORT-KEY/TRX-CODE/FIRST-POS-OF-TRX-CODE" occursSpecific="N">
+		<srcElement type="K" sourcePath="L">
+			<rule type="R" ruleLevel="L" label="NoReversal" isComplex="N" handlerClass="NoReversal"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="Z">
+			<rule type="R" ruleLevel="L" label="ReversalFinActivitySubType" isComplex="N" handlerClass="ReversalFinActivitySubType"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT" primaryPath="TXLife/TXLifeRequest/OLifE/Holding/Arrangement" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="PrequeryHoldingFilter" isComplex="N" handlerClass="PrequeryHoldingFilter"/>
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/ALT-PAY-1-REM-IND" occursSpecific="N">
+		<function type="F" ruleLevel="L" label="ACORDAltPayRemain_ForAllTrans_ACtoV11573404370" isComplex="N" handlerClass="ACORDAltPayRemain_ForAllTrans_ACtoV11573404370"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/AltPayRemain/@tc"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)" primaryPath="TXLife/TXLifeRequest/OLifE/Party" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="AltRemainingIndTenant" isComplex="N" handlerClass="AltRemainingIndTenant"/>
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-DIRECTORY-ID" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/PartyKey"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-DISBURSEMENT-IND" occursSpecific="N">
+		<function type="F" ruleLevel="L" label="TenantDisbursementInd" isComplex="N" handlerClass="TenantDisbursementInd"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrDestination(0)/OLifEExtension/ArrDestinationExtension/PaymentForm/@tc"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-EFT-ID" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Banking/OLifEExtension(0)/BankingExtension/EftID"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-FED-OVR-AMT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldAmt">
+			<rule type="R" ruleLevel="L" label="TenantFederalWithholdingY" isComplex="N" handlerClass="TenantFederalWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantMunAmt" isComplex="N" handlerClass="Tx107TenantMunAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-FED-OVR-PCT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldPct">
+			<rule type="R" ruleLevel="L" label="TenantFederalWithholdingY" isComplex="N" handlerClass="TenantFederalWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantMunPct" isComplex="N" handlerClass="Tx107TenantMunPct"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-FED-WITHH-OVR" occursSpecific="N">
+		<srcElement type="K" sourcePath="N">
+			<rule type="R" ruleLevel="L" label="TenantFederalWithholdingN" isComplex="N" handlerClass="TenantFederalWithholdingN"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="Y">
+			<rule type="R" ruleLevel="L" label="TenantFederalWithholdingY" isComplex="N" handlerClass="TenantFederalWithholdingY"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-MUN-OVR-AMT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldAmt">
+			<rule type="R" ruleLevel="L" label="TenantMunicipalWithholdingY" isComplex="N" handlerClass="TenantMunicipalWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantMunAmt" isComplex="N" handlerClass="Tx107TenantMunAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-MUN-OVR-PCT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldPct">
+			<rule type="R" ruleLevel="L" label="TenantMunicipalWithholdingY" isComplex="N" handlerClass="TenantMunicipalWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantMunPct" isComplex="N" handlerClass="Tx107TenantMunPct"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-MUN-WITHH-OVR" occursSpecific="N">
+		<srcElement type="K" sourcePath="Y">
+			<rule type="R" ruleLevel="L" label="TenantMunicipalWithholdingY" isComplex="N" handlerClass="TenantMunicipalWithholdingY"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="N">
+			<rule type="R" ruleLevel="L" label="TenantMunicipalWithholdingN" isComplex="N" handlerClass="TenantMunicipalWithholdingN"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-PERCENT" occursSpecific="N">
+		<function type="F" ruleLevel="L" label="Tx105TransferPct" isComplex="N" handlerClass="Tx105TransferPct"/>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrDestination(0)/TransferPct"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-STATE-FILING-ST" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/OLifEExtension/TaxWithholdingExtension/TaxWithholdingFilingStatus">
+			<rule type="R" ruleLevel="L" label="TenantStateWithholdingY" isComplex="N" handlerClass="TenantStateWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantTaxWithFilingStatus" isComplex="N" handlerClass="Tx107TenantTaxWithFilingStatus"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-STATE-NO-OF-EXEMPT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/WithholdingNumExemptions">
+			<rule type="R" ruleLevel="L" label="TenantStateWithholdingY" isComplex="N" handlerClass="TenantStateWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantStateWithNumExemptions" isComplex="N" handlerClass="Tx107TenantStateWithNumExemptions"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-STATE-OVR-AMT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldAmt">
+			<rule type="R" ruleLevel="L" label="TenantStateWithholdingY" isComplex="N" handlerClass="TenantStateWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantStateAmt" isComplex="N" handlerClass="Tx107TenantStateAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-STATE-OVR-PCT" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldPct">
+			<rule type="R" ruleLevel="L" label="TenantStateWithholdingY" isComplex="N" handlerClass="TenantStateWithholdingY"/>
+			<function type="F" ruleLevel="L" label="Tx107TenantMunPct" isComplex="N" handlerClass="Tx107TenantMunPct"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-STATE-PCT-OR-BASIS" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/OLifEExtension/TaxWithholdingExtension/TaxWithholdingPercentBasis/@tc">
+			<rule type="R" ruleLevel="L" label="TenantStateWithholdingY" isComplex="N" handlerClass="TenantStateWithholdingY"/>
+			<function type="F" ruleLevel="L" label="TenantTaxWithPercentBasis" isComplex="N" handlerClass="TenantTaxWithPercentBasis"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/ALT-PAYEES/TEN-INFO/TENANT-OVERRIDE-INFO(001)/TEN-STATE-WITHH-OVR" occursSpecific="N">
+		<srcElement type="K" sourcePath="N">
+			<rule type="R" ruleLevel="L" label="TenantStateWithholdingN" isComplex="N" handlerClass="TenantStateWithholdingN"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="Y">
+			<rule type="R" ruleLevel="L" label="TenantStateWithholdingY" isComplex="N" handlerClass="TenantStateWithholdingY"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/BANK-INFORMATION" occursSpecific="N">
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/BANK-INFORMATION/EFT-ID" occursSpecific="N">
+		<srcElement type="K" sourcePath="">
+			<rule type="R" ruleLevel="L" label="DeleteEftId" isComplex="N" handlerClass="DeleteEftId"/>
+		</srcElement>
+		<srcElement type="K" sourcePath=" ">
+			<rule type="R" ruleLevel="L" label="OwnEftId" isComplex="N" handlerClass="OwnEftId"/>
+			<function type="F" ruleLevel="L" label="GetOwnerEftId" isComplex="N" handlerClass="GetOwnerEftId"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/DISBURSEMENT-CODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/PaymentForm/@tc">
+			<rule type="R" ruleLevel="L" label="ChangeOwnerDisbInd" isComplex="N" handlerClass="ChangeOwnerDisbInd"/>
+			<function type="F" ruleLevel="L" label="ACORDPaymentForm_ACtoV12136883761" isComplex="N" handlerClass="ACORDPaymentForm_ACtoV12136883761"/>
+		</srcElement>
+		<srcElement type="K" sourcePath=" ">
+			<rule type="R" ruleLevel="L" label="DelModalAmt1" isComplex="N" handlerClass="DelModalAmt1"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/DISTRIBUTION-IND" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxDisbursementType/@tc">
+			<rule type="R" ruleLevel="L" label="ChangeTaxDisbType2" isComplex="N" handlerClass="ChangeTaxDisbType2"/>
+			<function type="F" ruleLevel="L" label="TaxDisbType" isComplex="N" handlerClass="TaxDisbType"/>
+		</srcElement>
+		<srcElement type="K" sourcePath=" ">
+			<rule type="R" ruleLevel="L" label="DelTaxDisburseTypeElem2" isComplex="N" handlerClass="DelTaxDisburseTypeElem2"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/FUND-ALLOCATION/FUND-WITH-ALLOC-INFO(001)" primaryPath="TXLife/TXLifeRequest/OLifE/Holding/Arrangement/ArrSource" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="SchedFundFilter6" isComplex="N" handlerClass="SchedFundFilter6"/>
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/FUND-ALLOCATION/FUND-WITH-ALLOC-INFO(001)/FUND-AMOUNT" occursSpecific="N">
+		<srcElement type="K" sourcePath="0.00">
+			<rule type="R" ruleLevel="L" label="DeleteFundAmt1" isComplex="N" handlerClass="DeleteFundAmt1"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrSource(0)/TransferAmt">
+			<rule type="R" ruleLevel="L" label="FundAmtChange" isComplex="N" handlerClass="FundAmtChange"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/FUND-ALLOCATION/FUND-WITH-ALLOC-INFO(001)/FUND-NUMBER" occursSpecific="N">
+		<srcElement type="K" sourcePath="">
+			<rule type="R" ruleLevel="L" label="DelProductCode5" isComplex="N" handlerClass="DelProductCode5"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Investment/SubAccount(0)/ProductCode">
+			<rule type="R" ruleLevel="L" label="LengthOfProductCode" isComplex="N" handlerClass="LengthOfProductCode"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/FUND-ALLOCATION/FUND-WITH-ALLOC-INFO(001)/FUND-PERCENT" occursSpecific="N">
+		<srcElement type="K" sourcePath="0.00">
+			<rule type="R" ruleLevel="L" label="DeleteFundPct1" isComplex="N" handlerClass="DeleteFundPct1"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrSource(0)/TransferPct">
+			<rule type="R" ruleLevel="L" label="FundPctChange" isComplex="N" handlerClass="FundPctChange"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/FUND-ALLOCATION/FUND-WITH-ALLOC-INFO(001)/FUND-UNITS" occursSpecific="N">
+		<srcElement type="K" sourcePath="0.0000">
+			<rule type="R" ruleLevel="L" label="DeleteFundUnits1" isComplex="N" handlerClass="DeleteFundUnits1"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrSource(0)/TransferUnits">
+			<rule type="R" ruleLevel="L" label="FundUnitsChange" isComplex="N" handlerClass="FundUnitsChange"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/MEMO-CODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/FinancialActivity(0)/OLifEExtension(0)/FinancialActivityExtension/MemoCode">
+			<rule type="R" ruleLevel="L" label="ChangeMemoCode" isComplex="N" handlerClass="ChangeMemoCode"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="">
+			<rule type="R" ruleLevel="L" label="DeleteMemoCode1" isComplex="N" handlerClass="DeleteMemoCode1"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/NET-GROSS-IND" occursSpecific="N">
+		<srcElement type="K" sourcePath="G">
+			<rule type="R" ruleLevel="L" label="PayoutOption_G" isComplex="N" handlerClass="PayoutOption_G"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="N">
+			<rule type="R" ruleLevel="L" label="PayoutOption_N" isComplex="N" handlerClass="PayoutOption_N"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/NEXT-PAYOUT-DATE/NEXT-PAYOUT-DA" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/NextActivityDate">
+			<function type="F" ruleLevel="L" label="Substring833899076" isComplex="N" handlerClass="Substring833899076"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/NEXT-PAYOUT-DATE/NEXT-PAYOUT-MO" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/NextActivityDate">
+			<function type="F" ruleLevel="L" label="Substring534377569" isComplex="N" handlerClass="Substring534377569"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/NEXT-PAYOUT-DATE/NEXT-PAYOUT-YR" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/NextActivityDate">
+			<function type="F" ruleLevel="L" label="Substring1575653405" isComplex="N" handlerClass="Substring1575653405"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/OVERRIDE-INFORMATION/IRS-WITHHOLDING-OVERRIDE" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="TaxWithholdingPlace1" isComplex="N" handlerClass="TaxWithholdingPlace1"/>
+		<srcElement type="K" sourcePath="N">
+			<rule type="R" ruleLevel="L" label="IRSWithholdingORNChange" isComplex="N" handlerClass="IRSWithholdingORNChange"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="Y">
+			<rule type="R" ruleLevel="L" label="IRSWithholdingORYChange" isComplex="N" handlerClass="IRSWithholdingORYChange"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/OVERRIDE-INFORMATION/SURR-PENALTY-OVERRIDE-IND" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/SurrChgOvrdInd/@tc">
+			<rule type="R" ruleLevel="L" label="LengthOfSurrPenalty" isComplex="N" handlerClass="LengthOfSurrPenalty"/>
+			<function type="F" ruleLevel="L" label="ACORDBooleanBlankNo_ACtoV1215548823" isComplex="N" handlerClass="ACORDBooleanBlankNo_ACtoV1215548823"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="">
+			<rule type="R" ruleLevel="L" label="DelSurrPenaltyOvrd" isComplex="N" handlerClass="DelSurrPenaltyOvrd"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/OVERRIDE-INFORMATION/TRX-EDIT-OVERRIDE-IND" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/OverrideSurrenderLimits/@tc">
+			<function type="F" ruleLevel="L" label="ACORDBoolean_ACtoV11054372809" isComplex="N" handlerClass="ACORDBoolean_ACtoV11054372809"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/OVERRIDE-INFORMATION/TRX-FEE-OVERRIDE-IND" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/OverrideTransactionFee/@tc">
+			<function type="F" ruleLevel="L" label="ACORDBoolean_ACtoV11557488297" isComplex="N" handlerClass="ACORDBoolean_ACtoV11557488297"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-AMOUNTS" primaryPath="TXLife/TXLifeRequest/OLifE/Holding/Arrangement" occursSpecific="N">
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-AMOUNTS/PAYOUT-AMOUNT" occursSpecific="N">
+		<srcElement type="K" sourcePath=" ">
+			<rule type="R" ruleLevel="L" label="DelModalAmt1" isComplex="N" handlerClass="DelModalAmt1"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ModalAmt">
+			<rule type="R" ruleLevel="L" label="ModalAmtChange" isComplex="N" handlerClass="ModalAmtChange"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-END-DATE/PAYOUT-END-DA" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/EndDate">
+			<rule type="R" ruleLevel="L" label="EndDateExists" isComplex="N" handlerClass="EndDateExists"/>
+			<function type="F" ruleLevel="L" label="Substring266528415" isComplex="N" handlerClass="Substring266528415"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="99">
+			<rule type="R" ruleLevel="L" label="EndDateNotInput" isComplex="N" handlerClass="EndDateNotInput"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-END-DATE/PAYOUT-END-MO" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/EndDate">
+			<rule type="R" ruleLevel="L" label="EndDateExists" isComplex="N" handlerClass="EndDateExists"/>
+			<function type="F" ruleLevel="L" label="Substring1509612726" isComplex="N" handlerClass="Substring1509612726"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="99">
+			<rule type="R" ruleLevel="L" label="EndDateNotInput" isComplex="N" handlerClass="EndDateNotInput"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-END-DATE/PAYOUT-END-YR" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/EndDate">
+			<rule type="R" ruleLevel="L" label="EndDateExists" isComplex="N" handlerClass="EndDateExists"/>
+			<function type="F" ruleLevel="L" label="Substring498102564" isComplex="N" handlerClass="Substring498102564"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="9999">
+			<rule type="R" ruleLevel="L" label="EndDateNotInput" isComplex="N" handlerClass="EndDateNotInput"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-MODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrMode/@tc">
+			<function type="F" ruleLevel="L" label="ACORDARRMode_ACtoV1737861611" isComplex="N" handlerClass="ACORDARRMode_ACtoV1737861611"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-OPTION-IND" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/ArrType/@tc">
+			<rule type="R" ruleLevel="L" label="PayoutOptionOther" isComplex="N" handlerClass="PayoutOptionOther"/>
+			<function type="F" ruleLevel="L" label="ACORDArrType_ACtoV1223435549" isComplex="N" handlerClass="ACORDArrType_ACtoV1223435549"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="C">
+			<rule type="R" ruleLevel="L" label="PayoutOptionC" isComplex="N" handlerClass="PayoutOptionC"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="L">
+			<rule type="R" ruleLevel="L" label="PayoutOptionL" isComplex="N" handlerClass="PayoutOptionL"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="N">
+			<rule type="R" ruleLevel="L" label="PayoutOptionN" isComplex="N" handlerClass="PayoutOptionN"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="T">
+			<rule type="R" ruleLevel="L" label="PayoutOptionT" isComplex="N" handlerClass="PayoutOptionT"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/PAYOUT-PERCENT" occursSpecific="N">
+		<srcElement type="K" sourcePath=" ">
+			<rule type="R" ruleLevel="L" label="DelModalPct" isComplex="N" handlerClass="DelModalPct"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/ModalPct">
+			<rule type="R" ruleLevel="L" label="ModalPctChange" isComplex="N" handlerClass="ModalPctChange"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SOURCE-CODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Policy/FinancialActivity(0)/OLifEExtension(0)/FinancialActivityExtension/SourceCode">
+			<rule type="R" ruleLevel="L" label="ChangeSourceCode" isComplex="N" handlerClass="ChangeSourceCode"/>
+		</srcElement>
+		<srcElement type="K" sourcePath=" ">
+			<rule type="R" ruleLevel="L" label="DeleteSourceCode1" isComplex="N" handlerClass="DeleteSourceCode1"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/START-DATE/PAYOUT-START-DA" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/StartDate">
+			<function type="F" ruleLevel="L" label="Substring260362128" isComplex="N" handlerClass="Substring260362128"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/START-DATE/PAYOUT-START-MO" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/StartDate">
+			<function type="F" ruleLevel="L" label="Substring1307534148" isComplex="N" handlerClass="Substring1307534148"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/START-DATE/PAYOUT-START-YR" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/StartDate">
+			<function type="F" ruleLevel="L" label="Substring284679825" isComplex="N" handlerClass="Substring284679825"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION" primaryPath="TXLife/TXLifeRequest/OLifE" occursSpecific="N">
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/STATE-FILING-STATUS" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/OLifEExtension/TaxWithholdingExtension/TaxWithholdingFilingStatus">
+			<rule type="R" ruleLevel="L" label="TransStateWithheldAmt" isComplex="N" handlerClass="TransStateWithheldAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/STATE-NUM-OF-EXEMPTS" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/WithholdingNumExemptions">
+			<rule type="R" ruleLevel="L" label="TransStateWithheldAmt" isComplex="N" handlerClass="TransStateWithheldAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/STATE-PCT-OR-BASIS" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/OLifEExtension/TaxWithholdingExtension/TaxWithholdingPercentBasis/@tc">
+			<rule type="R" ruleLevel="L" label="TransStateWithheldAmt" isComplex="N" handlerClass="TransStateWithheldAmt"/>
+			<function type="F" ruleLevel="L" label="ACORDPCTBasisExt_ACtoV1289381538" isComplex="N" handlerClass="ACORDPCTBasisExt_ACtoV1289381538"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/STATE-WITHH-OR-IND" occursSpecific="N">
+		<srcElement type="K" sourcePath="Y">
+			<rule type="R" ruleLevel="L" label="TransStateWithheldAmt" isComplex="N" handlerClass="TransStateWithheldAmt"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="N">
+			<rule type="R" ruleLevel="L" label="StateWithholdingNind" isComplex="N" handlerClass="StateWithholdingNind"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-CALCULATION-IND" occursSpecific="N">
+		<srcElement type="K" sourcePath="">
+			<rule type="R" ruleLevel="L" label="DelSubCalcElem" isComplex="N" handlerClass="DelSubCalcElem"/>
+		</srcElement>
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/SubCalcType/@tc">
+			<rule type="R" ruleLevel="L" label="SubCalcIndChange" isComplex="N" handlerClass="SubCalcIndChange"/>
+			<function type="F" ruleLevel="L" label="ACORDSubCalcType_ACtoV1_POIGK2052708361" isComplex="N" handlerClass="ACORDSubCalcType_ACtoV1_POIGK2052708361"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-DATE-OF-BIRTH" primaryPath="TXLife/TXLifeRequest/OLifE/Relation" occursSpecific="N">
+		<rule type="R" ruleLevel="L" label="SubDOBRelation" isComplex="N" handlerClass="SubDOBRelation"/>
+		<srcElement type="G" sourcePath="GROUP"/>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-DATE-OF-BIRTH/SUB-DOB-DAY" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Person/BirthDate">
+			<rule type="R" ruleLevel="L" label="SubDOBChange" isComplex="N" handlerClass="SubDOBChange"/>
+			<function type="F" ruleLevel="L" label="Substring1009121734" isComplex="N" handlerClass="Substring1009121734"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="00">
+			<rule type="R" ruleLevel="L" label="SubDOBDelete" isComplex="N" handlerClass="SubDOBDelete"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-DATE-OF-BIRTH/SUB-DOB-MONTH" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Person/BirthDate">
+			<rule type="R" ruleLevel="L" label="SubDOBChange" isComplex="N" handlerClass="SubDOBChange"/>
+			<function type="F" ruleLevel="L" label="Substring314450454" isComplex="N" handlerClass="Substring314450454"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="00">
+			<rule type="R" ruleLevel="L" label="SubDOBDelete" isComplex="N" handlerClass="SubDOBDelete"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-DATE-OF-BIRTH/SUB-DOB-YEAR" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/Person/BirthDate">
+			<rule type="R" ruleLevel="L" label="SubDOBChange" isComplex="N" handlerClass="SubDOBChange"/>
+			<function type="F" ruleLevel="L" label="Substring449807788" isComplex="N" handlerClass="Substring449807788"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="0000">
+			<rule type="R" ruleLevel="L" label="SubDOBDelete" isComplex="N" handlerClass="SubDOBDelete"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-RELATIONSHIP-CODE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Relation(0)/BeneficiaryDesignation/@tc">
+			<rule type="R" ruleLevel="L" label="SubRelationCodechange2" isComplex="N" handlerClass="SubRelationCodechange2"/>
+			<function type="F" ruleLevel="L" label="SubRelationTrans" isComplex="N" handlerClass="SubRelationTrans"/>
+		</srcElement>
+		<srcElement type="K" sourcePath="">
+			<rule type="R" ruleLevel="L" label="DelSubRelElem2" isComplex="N" handlerClass="DelSubRelElem2"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-SOCIAL-SECURITY-NUMBER" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/GovtID">
+			<rule type="R" ruleLevel="L" label="Ann103BeneDesignationGtr0" isComplex="N" handlerClass="Ann103BeneDesignationGtr0"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/SUB-SOCIAL-SECURITY-SUFFIX" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Party(0)/GovtIDTC/@tc">
+			<rule type="R" ruleLevel="L" label="Ann103BeneDesignationGtr0" isComplex="N" handlerClass="Ann103BeneDesignationGtr0"/>
+			<function type="F" ruleLevel="L" label="ACORDGovtidtc_ACtoV11410263226" isComplex="N" handlerClass="ACORDGovtidtc_ACtoV11410263226"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-AMT-FED" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldAmt">
+			<rule type="R" ruleLevel="L" label="TransFedWithheldAmt" isComplex="N" handlerClass="TransFedWithheldAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-AMT-MUNICIPAL" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldAmt">
+			<rule type="R" ruleLevel="L" label="TransMunWithholdingAmt" isComplex="N" handlerClass="TransMunWithholdingAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-AMT-STATE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldAmt">
+			<rule type="R" ruleLevel="L" label="TransStateWithheldAmt" isComplex="N" handlerClass="TransStateWithheldAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-PERCENT-FED" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldPct">
+			<rule type="R" ruleLevel="L" label="TransFedWithheldAmt" isComplex="N" handlerClass="TransFedWithheldAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-PERCENT-MUNICIPAL" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldPct">
+			<rule type="R" ruleLevel="L" label="TransMunWithholdingAmt" isComplex="N" handlerClass="TransMunWithholdingAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-PERCENT-STATE" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldPct">
+			<rule type="R" ruleLevel="L" label="TransStateWithheldAmt" isComplex="N" handlerClass="TransStateWithheldAmt"/>
+		</srcElement>
+	</mapElement>
+	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/TRX-LEVEL-INDICATOR" occursSpecific="N">
+		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/OLifEExtension/ArrangementExtension/SourceTransferAmtType/@tc">
+			<function type="F" ruleLevel="L" label="ACORDTransferAmtType_ACtoV1750152915" isComplex="N" handlerClass="ACORDTransferAmtType_ACtoV1750152915"/>
+		</srcElement>
+	</mapElement>
+</map>

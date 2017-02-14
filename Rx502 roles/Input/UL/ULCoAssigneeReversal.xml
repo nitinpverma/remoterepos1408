@@ -13,7 +13,7 @@
            <Activity>
                 <ActivityDetails>00005</ActivityDetails>
 		<ScheduledChange>
-			<ReversalInd tc="1"/>
+			<ReversalInd tc="2"/>
 		</ScheduledChange>
             </Activity>
 			<Holding id="Holding_1">

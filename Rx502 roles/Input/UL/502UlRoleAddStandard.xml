@@ -2,7 +2,7 @@
 <TXLife>
     <TXLifeRequest>
 	<ChangeSubType ChangeID="lolo">
-		<TranContentCode tc="1"/>
+		<TranContentCode tc="2"/>
 		<ChangeTC tc="22"/>
 	</ChangeSubType>
         <OLifE>
