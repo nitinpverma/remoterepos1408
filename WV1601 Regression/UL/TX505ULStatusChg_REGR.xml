@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by CSC Financial Services Group (CSC Financial Services Group) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>generated</TransRefGUID>
+		<TransType tc="505">StatusChange</TransType>
+		<TransEffDate>2010-11-04</TransEffDate>
+		<OLifE>
+			<Holding id="Holding_1">
+				<Policy>
+					<PolNumber>PNPUL001</PolNumber>
+					<CarrierCode>VCS</CarrierCode>
+					<PolicyStatus tc="1"/>
+				</Policy>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

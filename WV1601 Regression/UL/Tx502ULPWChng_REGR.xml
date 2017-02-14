@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by sryan22 (CSC Financial Services Group) -->
+<!-- edited with XMLSpy v2006 rel. 3 sp1 (http://www.altova.com) by Richa (CSC FINANCIAL SERVICES GROUP) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<UserAuthRequest>
+		<UserLoginName/>
+		<UserPswd>
+			<CryptType/>
+			<Pswd/>
+		</UserPswd>
+		<UserDomain/>
+		<VendorApp>
+			<VendorName VendorCode="1"/>
+			<AppName/>
+			<AppVer/>
+		</VendorApp>
+	</UserAuthRequest>
+	<TXLifeRequest>
+		<TransRefGUID/>
+		<TransType tc="502"/>
+		<ChangeSubType id="Change_1" ChangeID="Covoption_1">
+			<ChangeTC tc="4"/>
+			<TranContentCode tc="2"/>
+			<ElementName>RateClass</ElementName>
+		</ChangeSubType>
+		<OLifE Version="1">
+			<SourceInfo>
+				<SourceInfoName/>
+				<SourceInfoDescription/>
+				<SourceInfoComment/>
+				<FileControlID/>
+			</SourceInfo>
+			<Holding id="Holding_1" DataRep="Full">
+				<HoldingKey Persist="Session"/>
+				<HoldingTypeCode tc="2"/>
+				<AsOfDate>2009-10-06</AsOfDate>
+				<Policy id="Policy_1" ProductID="Holding_1" DataRep="Full">
+					<CarrierAdminSystem/>
+					<PolNumber>NBA275UL003</PolNumber>
+					<ProductType tc="3"/>
+					<CarrierCode>VCS</CarrierCode>
+					<Life>
+						<Coverage id="Cov_1">
+							<GuidelineAnnPrem>3.00</GuidelineAnnPrem>
+							<GuidelineSinglePrem>4.00</GuidelineSinglePrem>
+							<CovOption id="Covoption_1">
+								<CovOptionKey>IA0000001HP0000000</CovOptionKey>
+								<ProductCode>WAIVR1</ProductCode>
+								<CovOptionStatus tc="1"/>
+								<LifeCovOptTypeCode tc="17"/>
+								<EffDate>2008-10-06</EffDate>
+								<TermDate>2084-10-06</TermDate>
+							</CovOption>
+							<OLifEExtension VendorCode="">
+								<CoverageExtension>
+									<RateClass>1</RateClass>
+								</CoverageExtension>
+							</OLifEExtension>
+						</Coverage>
+					</Life>
+				</Policy>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

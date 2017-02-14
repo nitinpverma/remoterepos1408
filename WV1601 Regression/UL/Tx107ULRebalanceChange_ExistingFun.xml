@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ACORD.org/Standards/Life/2
+C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>RBChange</TransRefGUID>
+		<TransType tc="107">Update Rebalancing Information</TransType>
+		<ChangeSubType ChangeID="ArrDest_1" id="change_1">
+			<ChangeTC tc="1000500032">Change Rebalancing</ChangeTC>
+			<TranContentCode tc="2">Update</TranContentCode>
+			<ElementName>TransferPct</ElementName>
+		</ChangeSubType>
+		<ChangeSubType ChangeID="ArrDest_2" id="change_2">
+			<ChangeTC tc="1000500032">Change Rebalancing</ChangeTC>
+			<TranContentCode tc="2">Update</TranContentCode>
+			<ElementName>TransferPct</ElementName>
+		</ChangeSubType>
+		<ChangeSubType ChangeID="ArrDest_3" id="change_3">
+			<ChangeTC tc="1000500032">Change Rebalancing</ChangeTC>
+			<TranContentCode tc="2">Update</TranContentCode>
+			<ElementName>TransferPct</ElementName>
+		</ChangeSubType>
+		<OLifE>
+			<Holding id="Holding_1">
+				<Policy>
+					<PolNumber>WSULTEST3</PolNumber>
+					<CarrierCode>VCS</CarrierCode>
+				</Policy>
+				<Investment id="Invest_1">
+					<SubAccount id="SubAccount_1">
+						<ProductCode>1</ProductCode>
+					</SubAccount>
+					<SubAccount id="SubAccount_2">
+						<ProductCode>3</ProductCode>
+					</SubAccount>
+					<SubAccount id="SubAccount_3">
+						<ProductCode>140</ProductCode>
+					</SubAccount>
+				</Investment>
+				<Arrangement id="Arrange_1">
+					<ArrType tc="3"/>
+						<NextActivityDate>2006-02-01</NextActivityDate>
+					      <StartDate>2006-01-01</StartDate>
+					      <EndDate>2010-01-01</EndDate>
+					<ArrDestination id="ArrDest_1" SubAcctID="SubAccount_1">
+						<TransferPct>20</TransferPct>
+					</ArrDestination>
+					<ArrDestination id="ArrDest_2" SubAcctID="SubAccount_2">
+						<TransferPct>30</TransferPct>
+					</ArrDestination>
+					<ArrDestination id="ArrDest_3" SubAcctID="SubAccount_3">
+						<TransferPct>50</TransferPct>
+					</ArrDestination>
+					<OLifEExtension VendorCode="">
+						<ArrangementExtension>
+							<TransactionEffectiveDate>2006-01-01</TransactionEffectiveDate>
+						</ArrangementExtension>
+					</OLifEExtension>
+				</Arrangement>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

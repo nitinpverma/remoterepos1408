@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by sryan22 (CSC Financial Services Group) -->
+<!-- edited with XMLSpy v2006 rel. 3 sp1 (http://www.altova.com) by Richa (CSC FINANCIAL SERVICES GROUP) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<UserAuthRequest>
+		<UserLoginName/>
+		<UserPswd>
+			<CryptType/>
+			<Pswd/>
+		</UserPswd>
+		<UserDomain/>
+		<VendorApp>
+			<VendorName VendorCode="1"/>
+			<AppName/>
+			<AppVer/>
+		</VendorApp>
+		<ProxyVendor>
+			<VendorName VendorCode="1"/>
+			<AppName/>
+			<AppVer/>
+			<SeqNum>1</SeqNum>
+		</ProxyVendor>
+	</UserAuthRequest>
+	<TXLifeRequest>
+		<TransRefGUID/>
+		<TransType tc="502"/>
+		<TransSubType tc="1000500005"/>
+		<TransEffDate>2009-12-04</TransEffDate>
+		<ChangeSubType id="Change_1" ChangeID="Cov_1">
+			<ChangeTC tc="3"/>
+			<TranContentCode tc="3"/>
+		</ChangeSubType>
+		<OLifE Version="1">
+			<Holding id="Holding_1" DataRep="Full">
+				<HoldingKey Persist="Session"/>
+				<HoldingTypeCode tc="2"/>
+				<Policy id="Policy_1" ProductID="Holding_1" DataRep="Full">
+					<CarrierAdminSystem/>
+					<PolNumber>PNPUL005F</PolNumber>
+					<ProductType tc="3"/>
+					<CarrierCode>VCS</CarrierCode>
+					<Life>
+						<Coverage id="Cov_1">
+							<CoverageKey>HQ0000001HP0000000</CoverageKey>
+							<ProductCode>TRMRD1</ProductCode>
+							<LifeCovStatus tc="1"/>
+							<LifeParticipant>
+								<RatingReason>M</RatingReason>
+								<RatingCommissionRule tc="2"/>
+								<SubstandardRating id="sub_1">
+									<RatingReason>M</RatingReason>
+									<RatingCommissionRule tc="2"/>
+									<OLifEExtension VendorCode="">
+										<SubstandardRatingExtension>
+											<PermFlatExtraAmt>8</PermFlatExtraAmt>
+										</SubstandardRatingExtension>
+									</OLifEExtension>
+								</SubstandardRating>
+								<SubstandardRating id="sub_2">
+									<RatingReason>M</RatingReason>
+									<RatingCommissionRule tc="3"/>
+									<TempFlatEndDate>2010-10-04</TempFlatEndDate>
+									<TempFlatExtraAmt>10</TempFlatExtraAmt>
+								</SubstandardRating>
+								<SubstandardRating id="sub_3">
+									<RatingReason>M</RatingReason>
+									<RatingCommissionRule tc="2"/>
+									<OLifEExtension VendorCode="">
+										<SubstandardRatingExtension>
+											<PermPercentageLoading>9</PermPercentageLoading>
+										</SubstandardRatingExtension>
+									</OLifEExtension>
+								</SubstandardRating>
+								<OLifEExtension VendorCode="">
+									<LifeParticipantExtension>
+										<SpecialClass>02</SpecialClass>
+									</LifeParticipantExtension>
+								</OLifEExtension>
+							</LifeParticipant>
+						</Coverage>
+					</Life>
+				</Policy>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

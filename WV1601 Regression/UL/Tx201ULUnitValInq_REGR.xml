@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>abc</TransRefGUID>
+		<TransType tc="201"/>
+		<TransEffDate>2007-12-29</TransEffDate>
+		<OLifE>
+			<PolicyProduct id="PolicyProd_1">
+				<CarrierCode>VCS</CarrierCode>
+				<ProductCode>BNSINT</ProductCode>
+				<PolicyProductTypeCode tc="3"/>
+				<Jurisdiction tc="6"/>
+				<QualifiedPlanCC>
+					<QualifiedPlan tc="38"/>
+				</QualifiedPlanCC>
+				<OLifEExtension>
+					<PolicyProductExtension>
+						<StatutoryCompanyCode>001</StatutoryCompanyCode>
+					</PolicyProductExtension>
+				</OLifEExtension>
+			</PolicyProduct>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

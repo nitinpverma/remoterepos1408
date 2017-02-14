@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>RoleChange</TransRefGUID>
+		<TransType tc="502"/>
+		<ChangeSubType ChangeID="Relation_1" id="change_1">
+			<ChangeTC tc="22">Role</ChangeTC>
+			<TranContentCode tc="3"/>
+			<ElementName>RelationRoleCode</ElementName>
+		</ChangeSubType>
+		<OLifE>
+			<Activity id="Activity_1">
+				<ScheduledChange id="Reversal_Ind">
+					<ReversalInd tc="0">Not a reversal</ReversalInd>
+				</ScheduledChange>
+			</Activity>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy id="Policy_1">
+					<PolNumber>ULENH867002X</PolNumber>
+					<ProductType tc="3"/>
+					<CarrierCode>VCS</CarrierCode>
+					<Life id="Coverage_1">
+						<Coverage>
+							<CoverageKey>HQ0000001HP0000000</CoverageKey>
+						</Coverage>
+					</Life>
+				</Policy>
+				<OLifEExtension VendorCode="">
+					<HoldingExtension>
+						<RestrictionInfo id="Restriction_1">
+							<StartDate>2005-11-09</StartDate>
+						</RestrictionInfo>
+					</HoldingExtension>
+				</OLifEExtension>
+			</Holding>
+			<Party id="party_1">
+				<PartyTypeCode tc="1"/>
+				<PartyKey>000000000001360 </PartyKey>
+				<Person DataRep="Removed"/>
+			</Party>
+			<Relation id="Relation_1" OriginatingObjectID="Holding_1" RelatedObjectID="party_1">
+				<RelationRoleCode tc="34"/>
+				<BeneficiarySeqNum>01</BeneficiarySeqNum>
+			</Relation>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

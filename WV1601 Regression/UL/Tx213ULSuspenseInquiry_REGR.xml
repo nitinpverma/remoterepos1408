@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID/>
+		<TransType tc="213"/>
+		<TransSubType tc="1000521303"/>
+		<OLifE>
+			<Holding id="Holding_1">
+				<Policy>
+					<PolNumber>ULREGR001</PolNumber>
+					<CarrierCode>VCS</CarrierCode>
+				</Policy>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

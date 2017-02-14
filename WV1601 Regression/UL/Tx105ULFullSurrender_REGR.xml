@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID/>
+		<TransType tc="105"/>
+		<OLifE>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy id="Policy_1">
+					<PolNumber>ULREGR005</PolNumber>
+					<CarrierCode>VCS</CarrierCode>
+					<FinancialActivity>
+						<TaxOverriddenInd tc="0"/>
+					</FinancialActivity>
+				</Policy>
+				<Arrangement>
+					<ArrType tc="31"/>
+					<PaymentForm tc="1"/>
+					<TaxWithholding id="Tax_1">
+						<TaxDisbursementType tc="19"/>
+					</TaxWithholding>
+					<OLifEExtension VendorCode="">
+						<ArrangementExtension>
+							<TransactionEffectiveDate>2009-11-04</TransactionEffectiveDate>
+						</ArrangementExtension>
+					</OLifEExtension>
+				</Arrangement>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>
