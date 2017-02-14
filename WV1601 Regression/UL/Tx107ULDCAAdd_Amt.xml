@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Peggy (CSC Financial Services Group) -->
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID/>
+		<TransType tc="107"/>
+		<TransSubType tc="1000500036"/>
+		<ChangeSubType>
+			<TranContentCode tc="1"/>
+		</ChangeSubType>
+		<OLifE>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy>
+					<PolNumber>ENH1173DCAADD</PolNumber>
+					<CarrierCode>VCS</CarrierCode>
+				</Policy>
+				<Investment id="Invest_1">
+					<SubAccount id="Fund_1">
+						<ProductCode>001</ProductCode>
+						<InvestType tc="15"/>
+					</SubAccount>
+					<SubAccount id="Fund_2">
+						<ProductCode>003</ProductCode>
+						<InvestType tc="15"/>
+					</SubAccount>
+					<SubAccount id="Fund_3">
+						<ProductCode>140</ProductCode>
+						<InvestType tc="15"/>
+					</SubAccount>
+				</Investment>
+				<Arrangement id="Arrange_1">
+					<ArrMode tc="3"/>
+					<ArrType tc="2"/>
+					<StartDate>2006-01-02</StartDate>
+					<DayOfMonth>01</DayOfMonth>
+					<EndDate>2012-06-01</EndDate>
+					<ArrSource SubAcctID="Fund_1">
+						<TransferAmtType tc="2"/>
+						<TransferAmt>60.0</TransferAmt>
+					</ArrSource>
+					<ArrDestination SubAcctID="Fund_2">
+						<TransferAmtType tc="2"/>
+						<TransferAmt>30.0</TransferAmt>
+					</ArrDestination>
+					<ArrDestination SubAcctID="Fund_3">
+						<TransferAmtType tc="2"/>
+						<TransferAmt>30.0</TransferAmt>
+					</ArrDestination>
+					<OLifEExtension VendorCode="">
+						<ArrangementExtension>
+							<TransactionEffectiveDate>2006-01-02</TransactionEffectiveDate>
+						</ArrangementExtension>
+					</OLifEExtension>
+				</Arrangement>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

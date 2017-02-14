@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by mjoaquim (CSC Financial Services Group) -->
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>POIChange_1</TransRefGUID>
+		<TransType tc="502"/>
+		<ChangeSubType ChangeID="Relation_1" id="change_1a">
+			<ChangeTC tc="22">Role</ChangeTC>
+			<TranContentCode tc="2"/>
+			<ElementName>RelationRoleCode</ElementName>
+		</ChangeSubType>
+		<OLifE>
+			<Activity id="Activity_1">
+				<ScheduledChange id="Reversal_Ind">
+					<ReversalInd tc="0">Not a reversal</ReversalInd>
+				</ScheduledChange>
+			</Activity>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy id="Policy_1">
+					<PolNumber>Rolea1</PolNumber>
+					<CarrierCode>vcs</CarrierCode>
+				</Policy>
+				<OLifEExtension>
+					<HoldingExtension>
+						<RestrictionInfo id="Restriction_1">
+							<StartDate>2002-01-01</StartDate>
+						</RestrictionInfo>
+					</HoldingExtension>
+				</OLifEExtension>
+			</Holding>
+			<Party id="party_1">
+				<PartyTypeCode tc="1"/>
+				<GovtID>001223456</GovtID>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="7"/>
+				<IDReferenceNo>PAYCHANGE</IDReferenceNo>
+				<Person>
+					<FirstName>PAYCHANGE</FirstName>
+					<LastName>Payor</LastName>
+					<Prefix>Dr</Prefix>
+					<Suffix>Phd</Suffix>
+					<Gender tc="1"/>
+					<BirthDate>1955-06-07</BirthDate>
+				</Person>
+				<Address id="Address_1">
+					<Line1>new line1</Line1>
+					<Line2>new line2</Line2>
+					<Line3>new line3</Line3>
+					<City>new city</City>
+					<AddressStateTC tc="7"/>
+					<Zip>05555</Zip>
+					<AddressCountryTC tc="1"/>
+					<OLifEExtension>
+						<AddressExtension>
+							<Line4>new line4</Line4>
+						</AddressExtension>
+					</OLifEExtension>
+				</Address>
+			</Party>
+			<Relation id="Relation_1" OriginatingObjectID="Holding_1" RelatedObjectID="party_1">
+				<RelationRoleCode tc="31"/>
+			</Relation>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

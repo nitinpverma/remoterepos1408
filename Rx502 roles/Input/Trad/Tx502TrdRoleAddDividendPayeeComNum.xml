@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TXLife>
+    <TXLifeRequest>
+	<ChangeSubType ChangeID="lolo">
+		<TranContentCode tc="1"/>
+		<ChangeTC tc="22"/>
+	</ChangeSubType>
+        <OLifE>
+           <Activity>
+                <ActivityDetails>ssss</ActivityDetails>
+		<ScheduledChange>
+			<ReversalInd tc="0"/>
+		</ScheduledChange>
+            </Activity>
+            <Holding>
+			<OLifEExtension>
+			<HoldingExtension>
+			<RestrictionInfo>
+            <StartDate>2002-01-01</StartDate>
+			</RestrictionInfo>
+			</HoldingExtension>
+			</OLifEExtension>
+                <Policy>
+                    <PolNumber>TRAD</PolNumber>
+                    <CarrierCode>VCS</CarrierCode>
+                </Policy>
+            </Holding>
+                      <Party id="party_1">
+				<PartyTypeCode tc="1"/>
+				<GovtID>288459956</GovtID>
+				<GovtIDTC tc="1"/>
+				<IDReferenceNo>DivPayee</IDReferenceNo>
+				<Person>
+					<FirstName>ADD2</FirstName>
+					<LastName>New</LastName>
+					<Prefix>Ms</Prefix>
+					<Suffix></Suffix>
+					<Gender tc="2"/>
+					<BirthDate>1966-05-10</BirthDate>
+				</Person>
+				<Address id="Address_1">
+					<Line1>new line1</Line1>
+					<Line2>new line2</Line2>
+					<Line3></Line3>
+					<City>new city</City>
+					<AddressStateTC tc="8"/>
+					<Zip>05555</Zip>
+					<AddressCountryTC tc="1"/>
+					<OLifEExtension>
+						<AddressExtension>
+							<Line4>new line4</Line4>
+						</AddressExtension>
+					</OLifEExtension>
+				</Address>
+				<Phone id="phone_1">
+                <PhoneTypeCode tc="3"/>
+                <AreaCode>258</AreaCode>
+                <DialNumber>1231234</DialNumber>
+                </Phone>
+                <EMailAddress id="email_1">
+                 <EMailType tc="1"/>
+                 <AddrLine>DivPayee@yahoo.com</AddrLine>
+                 </EMailAddress> 
+			</Party>
+            <Relation id="lolo" RelatedObjectID="227">
+                <BeneficiarySeqNum></BeneficiarySeqNum>
+                <RelationRoleCode tc="227">227</RelationRoleCode>
+            </Relation>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>

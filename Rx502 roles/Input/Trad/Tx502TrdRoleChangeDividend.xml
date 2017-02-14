@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TXLife>
+    <TXLifeRequest>
+	<ChangeSubType ChangeID="CHANGE_1">
+		<TranContentCode tc="2"/>
+		<ChangeTC tc="22"/>
+	</ChangeSubType>
+        <OLifE>
+           <Activity>
+                <ActivityDetails>ssss</ActivityDetails>
+		<ScheduledChange>
+			<ReversalInd tc="0"/>
+		</ScheduledChange>
+            </Activity>
+            <Holding>
+                <Policy>
+                    <PolNumber>ROLE1</PolNumber>
+                    <CarrierCode>VCS</CarrierCode>
+                </Policy>
+            </Holding>
+            <Party>
+                <IDReferenceNo>123456789</IDReferenceNo>
+                <Person>
+                    <FirstName>TOM</FirstName>
+                    <LastName>JAMES</LastName>
+                    <Prefix></Prefix>
+                    <Suffix></Suffix>
+                    <Gender tc="2"/>
+                    <BirthDate>1960-01-01</BirthDate>
+                </Person>
+                <Address>
+                    <Line1>LINE1</Line1>
+                    <City>HARTFORD</City>
+                    <AddressStateTC tc="">CT</AddressStateTC>
+                    <Zip>06751</Zip>
+                </Address>
+		<OLifEExtension>
+			<PartyExtension>
+				<OldReferenceID></OldReferenceID>
+			</PartyExtension>
+		</OLifEExtension>
+            </Party>
+            <Relation id="CHANGE_1" RelatedObjectID="227">
+                <BeneficiarySeqNum></BeneficiarySeqNum>
+                <RelationRoleCode tc="227">227</RelationRoleCode>
+            </Relation>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>

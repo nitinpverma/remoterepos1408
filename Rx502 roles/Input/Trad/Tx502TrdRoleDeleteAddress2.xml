@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TXLife>
+    <TXLifeRequest>
+	<ChangeSubType ChangeID="Delete">
+		<TranContentCode tc="3"/>
+		<ChangeTC tc="22"/>
+	</ChangeSubType>
+        <OLifE>
+           <Activity>
+                <ActivityDetails>ssss</ActivityDetails>
+		<ScheduledChange>
+			<ReversalInd tc="0"/>
+		</ScheduledChange>
+            </Activity>
+            <Holding>
+                <Policy>
+                    <PolNumber>ROLE2</PolNumber>
+                    <CarrierCode>VCS</CarrierCode>
+                </Policy>
+            </Holding>
+            <Party>
+                <IDReferenceNo>756345213</IDReferenceNo>
+            </Party>
+            <Relation id="Delete" RelatedObjectID="124">
+                <BeneficiarySeqNum></BeneficiarySeqNum>
+                <RelationRoleCode tc="124">124</RelationRoleCode>
+            </Relation>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>

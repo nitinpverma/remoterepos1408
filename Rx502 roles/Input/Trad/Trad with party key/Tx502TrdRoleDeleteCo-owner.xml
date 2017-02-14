@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TXLife>
+    <TXLifeRequest>
+	<ChangeSubType ChangeID="lolo">
+		<TranContentCode tc="3"/>
+		<ChangeTC tc="22"/>
+	</ChangeSubType>
+        <OLifE>
+           <Activity>
+                <ActivityDetails>ssss</ActivityDetails>
+		<ScheduledChange>
+			<ReversalInd tc="0"/>
+		</ScheduledChange>
+            </Activity>
+            <Holding>
+			<OLifEExtension>
+			<HoldingExtension>
+			<RestrictionInfo>
+            <StartDate>2002-01-01</StartDate>
+			</RestrictionInfo>
+			</HoldingExtension>
+			</OLifEExtension>
+                <Policy>
+                    <PolNumber>TRAD2</PolNumber>
+                    <CarrierCode>VCS</CarrierCode>
+                </Policy>
+            </Holding>
+            <Party>
+                <PartyKey>756345213</PartyKey>
+            </Party>
+            <Relation id="lolo" RelatedObjectID="184">
+                <BeneficiarySeqNum></BeneficiarySeqNum>
+                <RelationRoleCode tc="184">184</RelationRoleCode>
+            </Relation>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>

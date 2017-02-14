@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>generated</TransRefGUID>
+		<TransType tc="502">Type Change</TransType>
+		<ChangeSubType id="Change_1" ChangeID="Holding_1">
+			<ChangeTC tc="8"/>
+			<TranContentCode tc="2"/>
+		</ChangeSubType>
+		<FormInstanceRequest id="FormInstance_1">
+			<ReprintInd tc="1"/>
+		</FormInstanceRequest>
+		<OLifE>
+			<Holding id="Holding_1">
+				<AsOfDate>2006-10-06</AsOfDate>
+				<Policy id="Policy_1">
+					<PolNumber>ENH945UL0020</PolNumber>
+					<CarrierCode>VCS</CarrierCode>
+					<Life id="Life_1">
+						<Coverage id="Coverage_1">
+							<DeathBenefitOptType tc="2"/>
+							<OLifEExtension VendorCode=""/>
+						</Coverage>
+					</Life>
+					<FinancialActivity id="FinancialActivity_1">
+						<FinActivityType tc="1000500355"/>
+						<FinActivitySubType tc="1"/>
+						<ReferenceNo>00014</ReferenceNo>
+						<OLifEExtension VendorCode="">
+							<FinancialActivityExtension>
+								<OverrideLimitsInd tc="1"/>
+								<InhibitConfirm tc="1"/>
+							</FinancialActivityExtension>
+						</OLifEExtension>
+					</FinancialActivity>
+				</Policy>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

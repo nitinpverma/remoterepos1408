@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TXLife xmlns="http://ACORD.org/Standards/Life/2">
+    <TXLifeResponse>
+        <TransRefGUID>RoleChange</TransRefGUID>
+        <TransType tc="502"/>
+        <TransExeDate>2016-11-02</TransExeDate>
+        <TransExeTime>04:39:17-04:00</TransExeTime>
+        <TransResult>
+            <ResultCode tc="1"/>
+        </TransResult>
+    </TXLifeResponse>
+</TXLife>

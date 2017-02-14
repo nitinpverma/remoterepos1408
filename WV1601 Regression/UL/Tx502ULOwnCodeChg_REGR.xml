@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by sryan22 (CSC Financial Services Group) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ACORD.org/Standards/Life/2
+C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>OwnerCodeChg</TransRefGUID>
+		<TransType tc="502"/>
+		<TransSubType tc="50204"/>
+		<ChangeSubType ChangeID="Policy_1" id="change_1"> 
+			<ChangeTC tc="1000550200">Holding Change</ChangeTC>
+			<TranContentCode tc="2">UPDATE</TranContentCode>
+			<ElementName>OwnershipCode</ElementName>
+		</ChangeSubType>
+		<OLifE>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<AsOfDate>2009-06-04</AsOfDate>
+				<Policy id="Policy_1">
+					<PolNumber>PNPUL005E</PolNumber>
+					<ProductType tc="3"/>
+					<CarrierCode>VCS</CarrierCode>
+					<OLifEExtension VendorCode="">
+						<PolicyExtension>
+							<OwnershipCode tc="1000500002"/>
+						</PolicyExtension>
+					</OLifEExtension>
+				</Policy>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>
