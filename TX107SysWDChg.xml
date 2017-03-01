@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by sryan22 (CSC Financial Services Group) -->
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>POIChange_1</TransRefGUID>
+		<TransType tc="107"/>
+		<TransSubType tc="1000500041"/>
+		<ChangeSubType ChangeID="Arrangement_1" id="change_1">
+			<ChangeTC tc="1000500031">Change SysWdl</ChangeTC>
+			<TranContentCode tc="2">Update</TranContentCode>
+			<ElementName>ArrMode</ElementName>
+		</ChangeSubType>
+			<ChangeSubType ChangeID="Arrangement_1" id="change_2">
+			<ChangeTC tc="1000500031">Change SysWdl</ChangeTC>
+			<TranContentCode tc="2"/>
+			<ElementName>ModalAmt</ElementName>
+		</ChangeSubType>
+		<ChangeSubType ChangeID="FinAct_1" id="change_3">
+			<ChangeTC tc="1000500031">Change SysWdl</ChangeTC>
+			<TranContentCode tc="2"/>
+			<ElementName>MemoCode</ElementName>
+		</ChangeSubType>
+		<ChangeSubType ChangeID="FinAct_1" id="change_4">
+			<ChangeTC tc="1000500031">Change SysWdl</ChangeTC>
+			<TranContentCode tc="2"/>
+			<ElementName>SourceCode</ElementName>
+		</ChangeSubType>
+		<OLifE>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy>
+					<PolNumber>ENH1173SYSWD1</PolNumber>
+					<CarrierCode>VCS</CarrierCode>
+					<FinancialActivity id="FinAct_1">
+						<FinActivityType tc="101"/>
+						<OLifEExtension VendorCode="">
+							<FinancialActivityExtension>
+								<SourceCode>AA</SourceCode>
+								<MemoCode>96</MemoCode>
+							</FinancialActivityExtension>
+						</OLifEExtension>
+					</FinancialActivity>
+				</Policy>
+				<Arrangement id="Arrangement_1">
+					<ArrangementKey>1</ArrangementKey>
+					<ArrMode tc="2"/>
+					<ModalAmt>450.00</ModalAmt>
+					<OLifEExtension VendorCode="">
+						<ArrangementExtension>
+							<TransactionEffectiveDate>2008-01-02</TransactionEffectiveDate>
+						</ArrangementExtension>
+					</OLifEExtension>
+				</Arrangement>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

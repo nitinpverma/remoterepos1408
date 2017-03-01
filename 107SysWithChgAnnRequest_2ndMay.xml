@@ -2,7 +2,7 @@
 <map lastChangeUser="nverma30" lastChangeTime="2016-05-02 16:55:33.172" label="107SysWithChgAnnRequest_2ndMay" description="backup taken after Marek's work on deletion rules">
 	<datasource type="X" system="WMA" schemaRoot="TXLife" label="TXLife 2.8.92" isSource="Y" identifier="TXLife2.8.92.xsd-WMA" filePath="TXLife2.8.92.xsd" description="Update Checked"/>
 	<datasource type="C" system="WMA" schemaRoot="" label="CXGDFLPO" isSource="N" identifier="CXGDFLPO-WMA" filePath="CXGDFLPO" description=""/>
-	<mapElement targetPath="CXGDFLPO(00)" occursSpecific="N">
+	<mapElement targetPath="CXGDFLPO(00)" occursSpecific="N">test changes
 		<srcElement type="G" sourcePath="GROUP"/>
 	</mapElement>
 	<mapElement targetPath="CXGDFLPO(00)/ADDL-ALT-PAYEE-INFO/ALT-PAYEE-GROUP-CURRENT" primaryPath="TXLife/TXLifeRequest/OLifE/Holding/Arrangement" occursSpecific="N">
@@ -663,7 +663,7 @@
 	</mapElement>
 	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-AMT-MUNICIPAL" occursSpecific="N">
 		<srcElement type="P" sourcePath="TXLife/TXLifeRequest(0)/OLifE/Holding(0)/Arrangement(0)/TaxWithholding(0)/TaxWithheldAmt">
-			<rule type="R" ruleLevel="L" label="TransMunWithholdingAmt" isComplex="N" handlerClass="TransMunWithholdingAmt"/>
+			<rule type="R" ruleLevel="L" label="TransMunWithholdingAmt" isComplex="N bDV" handlerClass="TransMunWithholdingAmt"/>
 		</srcElement>
 	</mapElement>
 	<mapElement targetPath="CXGDFLPO(00)/LPO-COPYBOOK/TRX-SEGMENT-CURRENT/SUB-INFORMATION/WITHHOLDING-AMT-STATE" occursSpecific="N">

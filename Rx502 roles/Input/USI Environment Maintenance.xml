@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usiusecase SYSTEM "../usiusecase.dtd">
+<usiusecase menuitem="" name="Environment Maintenance" business.event.type="INQUIRY.UPDATE" top.level.menu.item="other.tab">
+	<revision.history>
+		<modification number="ENH1220"/>
+		<modification number="T0196"/>
+	</revision.history>
+	<dev.details.uc id="EnvironmentMaintenance" axPackage="environment" jboType="DB2BO" generateService="N" custom.init.code="init()">
+		<custom.include type="javascript" name="EnvironmentMaintenance.js"/>
+	</dev.details.uc>
+	<specification>
+		<related.documents/>
+		<special.considerations>
+			<special.user.considerations/>
+			<special.technical.considerations/>
+			<customer.responsibilities/>
+			<issues/>
+		</special.considerations>
+	</specification>
+	<data>
+		<group name="hiddenItems">
+			<field name="statusIndList" controltype="text" datatype="text" picsize="1" readonly="yes" properties="optional">
+				<dev.details.f presentation.only="Y"/>
+			</field>
+		</group>
+		<group name="EnvironmentIndexSelectedCriteria">
+			<field label="Application" name="applicationId" controltype="dropdown" datatype="text" picsize="25" properties="optional" readonly="no">
+				<dev.details.f presentation.only="Y"/>
+				<allowable.values ref="ApplicationSearchBy"/>
+				<conditions>
+					<custom.cond type="java" action="onchange" function="onApplicationIdSelectionChange"/>
+				</conditions>
+			</field>
+			<field label="Display Inactive Environments" name="viewInactiveSelector" controltype="checkbox" datatype="boolean" picsize="1" properties="optional" readonly="no">
+				<dev.details.f presentation.only="Y"/>
+				<conditions>
+					<custom.cond type="java" action="onchange" function="onViewInactiveSelectorChange"/>
+				</conditions>
+			</field>
+		</group>
+		<group name="EnvironmentIndexTable" occurrence="99">
+			<dev.details.g existingJbo="EnvironmentIndexModel"/>
+			<field label="Application" name="environmentList.applId" controltype="text" datatype="text" picsize="15" properties="conditional" readonly="yes">
+				<dev.details.f/>
+			</field>
+			<field label="Environment Code" name="environmentList.environment" controltype="text" datatype="text" picsize="33" properties="conditional" readonly="yes">
+				<dev.details.f/>
+			</field>
+			<field label="Environment Name" name="environmentList.environmentAbbrv" controltype="text" datatype="text" picsize="20" properties="conditional" readonly="yes">
+				<dev.details.f/>
+			</field>
+			<field label="Status" name="environmentList.statusInd" controltype="text" datatype="text" picsize="1" properties="conditional" readonly="yes">
+				<dev.details.f/>
+				<allowable.values ref="EnvironmentStatus  "/>
+			</field>
+			<field label="Changed By" name="environmentList.lstChangedBy" controltype="text" datatype="text" picsize="10" properties="conditional" readonly="yes">
+				<dev.details.f/>
+			</field>
+			<field label="Changed Date" name="environmentList.lstChangeDate" controltype="date" datatype="date" picsize="10" properties="conditional" readonly="yes">
+				<dev.details.f/>
+			</field>
+		</group>
+		<group name="EnvironmentMaintenanceDetail">
+			<field label="Application" name="EnvironmntModel.applKey" controltype="dropdown" datatype="text" picsize="15" properties="optional" readonly="no">
+				<dev.details.f/>
+			</field>
+			<field label="Environment Code" name="EnvironmntModel.environment" controltype="text" datatype="text" picsize="33" properties="optional" readonly="no">
+				<dev.details.f/>
+			</field>
+			<field label="Environment Name" name="EnvironmntModel.environmentAbbrv" controltype="text" datatype="text" picsize="20" properties="optional" readonly="no">
+				<dev.details.f/>
+			</field>
+		</group>
+		<group name="EnvironmentCloneDetail">
+			<field label="Application" name="cloneAppl" controltype="text" datatype="text" picsize="15" properties="optional" readonly="yes">
+				<dev.details.f presentation.only="Y"/>
+			</field>
+			<field label="Cloning Environment" name="cloneEnvironment" controltype="text" datatype="text" picsize="33" properties="optional" readonly="yes">
+				<dev.details.f presentation.only="Y"/>
+			</field>
+			<field label="Environment Code" name="newEnvironment" controltype="text" datatype="text" picsize="33" properties="required" readonly="no">
+				<dev.details.f presentation.only="Y"/>
+			</field>
+			<field label="Environment Name" name="newEnvironmentAbbr" controltype="text" datatype="text" picsize="20" properties="required" readonly="no">
+				<dev.details.f presentation.only="Y"/>
+			</field>
+			<field label="Project Id" name="projectId" controltype="dropdown" datatype="text" picsize="15" properties="required" readonly="no">
+				<dev.details.f presentation.only="Y"/>
+			</field>
+		</group>
+	</data>
+	<presentation>
+		<pages>
+			<page dynamic.title="N" override="Y" pend="N" realtime="Y" repeat="Y" reset="Y" submit="Y" title="Environment Index" id="EnvironmentIndex">
+				<pgroup name="hiddenItems" layout="1col">
+					<pfield name="statusIndList" hide="Y"/>
+				</pgroup>
+				<pgroup layout="composite.group">
+					<pgroup name="EnvironmentIndexSelectedCriteria" label="Environment Filter Criteria" heading="Y" layout="2col"/>
+					<pgroup layout="1col">
+						<pgroup name="EnvironmentIndexTable" label="Environments" heading="Y" layout="table" table.pageable="Y" table.rows="14">
+							<dev.details.pgroup selection="single" sort="N" table.dblclick="N"/>
+						</pgroup>
+					</pgroup>
+					<pgroup layout="1col">
+						<pgroup layout="4col">
+							<button name="add" label="Add" type="other" action="addEnvironment()">
+								<description>Add an Environment</description>
+								<custom.cond type="java" action="disable" function="addEnvironmentDisabled"/>
+							</button>
+							<button name="clone" label="Clone" type="other" action="cloneEnvironment()">
+								<description>Clone an Environment</description>
+								<custom.cond type="java" action="hide" function="cloneEnvironmentRendered"/>
+							</button>
+							<button name="cmdUpdateStatus" label="Update Status" type="other" action="updateEnvironmentStatus()" onclick="confirmStatusUpdate()">
+								<description>Update Status of the selected Environment</description>
+							</button>
+							<button name="cmdHistory" label="Audit" type="other" action="navigateToHistory()">
+								<description>View Audit informaton for the selected Environment</description>
+							</button>
+						</pgroup>
+					</pgroup>
+				</pgroup>
+			</page>
+			<page dynamic.title="N" override="Y" pend="N" realtime="Y" repeat="Y" reset="Y" submit="Y" title="Environment Maintenance" id="EnvironmentDetail">
+				<pgroup layout="composite.group">
+					<pgroup heading="Y" label="Environment Information" layout="1col" name="EnvironmentMaintenanceDetail"/>
+					<pgroup layout="1col">
+						<pgroup layout="2col">
+							<button name="addDetail" label="Add" type="other" action="detailAdd()">
+								<description>Process Add of Environment</description>
+							</button>
+							<button name="cancel" label="Cancel" type="cancel" action="detailCancel()">
+								<description>Cancel the add and redirect back to Environment Index Page</description>
+							</button>
+						</pgroup>
+					</pgroup>
+				</pgroup>
+			</page>
+			<page dynamic.title="N" override="Y" pend="N" realtime="Y" repeat="Y" reset="Y" submit="Y" title="Environment Clone" id="EnvironmentClone">
+				<pgroup layout="composite.group">
+					<pgroup heading="Y" label="Environment Clone Information" layout="1col" name="EnvironmentCloneDetail"/>
+					<pgroup layout="1col">
+						<pgroup layout="2col">
+							<button name="cloneDetail" label="Clone" type="other" action="detailClone()">
+								<description>Process Clone of Environment</description>
+							</button>
+							<button name="cloneCancel" label="Cancel" type="cancel" action="detailCancel()">
+								<description>Cancel the Clone and redirect back to Environment Index Page</description>
+							</button>
+						</pgroup>
+					</pgroup>
+				</pgroup>
+			</page>
+		</pages>
+	</presentation>
+</usiusecase>

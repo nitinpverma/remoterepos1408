@@ -1,0 +1,477 @@
+INFO: Editing line 2399 [, CNTCTPGT, MO, , P, P_COV_CURR_SURRENDER_COST_INDEX_20, numeric, , 4, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-CURR-SURR-COST-INDEX20, V, COVERAGE-PROPERTIES, , , , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2400 [, CNTCTPGT, MO, , P, P_COV_CURR_NET_PMT_COST_INDEX_10, numeric, , 1, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-CURR-NET-PMT-COST-IND10, V, COVERAGE-PROPERTIES, , , , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2401 [, CNTCTPGT, MO, , P, P_COV_CURR_NET_PMT_COST_INDEX_20, numeric, , 2, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-CURR-NET-PMT-COST-IND20, V, COVERAGE-PROPERTIES, , , , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2402 [, CNTCTPGT, MO, , P, P_COV_ELA_DIVIDEND_10, numeric, , 9, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-ELA-DIVIDEND10, V, COVERAGE-PROPERTIES, , , , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2403 [, CNTCTPGT, MO, , P, P_COV_ELA_DIVIDEND_20, numeric, , 10, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-ELA-DIVIDEND20, V, COVERAGE-PROPERTIES, , , , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2404 [, CNTCTPGT, MO, , P, P_COV_CURR_DEATH_BENEFIT, numeric, , 101, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-CURR-DEATH-BENEFIT, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2405 [, CNTCTPGT, MO, , P, P_COV_GUAR_DEATH_BENEFIT, numeric, , 102, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-GUAR-DEATH-BENEFIT, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2406 [, CNTCTPGT, MO, , P, P_COV_NF_VALUE_FACTOR, numeric, , 103, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-NF-VALUE-FACTOR, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2407 [, CNTCTPGT, MO, , P, P_COV_PURE_ENDOWMENT_AMOUNT, numeric, , 104, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-PURE-ENDOW-AMT, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2408 [, CNTCTPGT, MO, , P, P_COV_GUAR_ANNUAL_PREMIUM, numeric, , 105, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-GUAR-ANN-PREM, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2409 [, CNTCTPGT, MO, , P, P_COV_CURR_ANNUAL_DIVIDEND, numeric, , 106, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-CURR-ANN-DIV, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2410 [, CNTCTPGT, MO, , P, P_COV_CURR_ANNUAL_PREMIUM, numeric, , 107, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-CURR-ANN-PREM, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Policy Summary Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2411 [, CNTCTPGT, MO, , P, P_COV_ETI_YEARS, numeric, , 108, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-ETI-YEARS, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2412 [, CNTCTPGT, MO, , P, P_COV_ETI_DAYS, numeric, , 109, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-ETI-DAYS, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2413 [, CNTCTPGT, MO, , P, P_COV_GUAR_CSV, numeric, , 110, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-GUAR-CSV, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2414 [, CNTCTPGT, MO, , P, P_COV_TOTAL_ANNUAL_PREMIUM, numeric, , 111, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-TOTAL-ANN-PREM, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2415 [, CNTCTPGT, MO, , P, P_COV_RPU_AMOUNT, numeric, , 112, CVG, PROC, CVG-WALK, 1, , AUTO, , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLDUR, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, COV-RPU-AMT, V, VPPARM-COVERAGE-DURATION-PROP, , COVERAGE-PROPERTIES, , , , , , , , , Located in - Whole Life. SUBSCRIPTED BY COV BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2416 [, CNTCTPGT, MO, , P, P_POLICY_ANNUAL_PREMIUM, numeric, , 6, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-ANN-PREM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2417 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_ACCUM_PREM, numeric, , 7, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-ACCUM-PREM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2418 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_ANNUAL_PREMIUM, numeric, , 10, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-ANN-PREM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2419 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_ILLUS_ACCUM_PREM, numeric, , 11, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-ILLUS-ACCUM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2420 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_CSV, numeric, , 8, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-CSV, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2421 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_SUMM_ILLUS_DB, numeric, , 9, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-SUMM-ILLUS, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2422 [, CNTCTPGT, MO, , P, P_POLICY_MIDPOINT_ACCUM_PREMIUM, numeric, , 1, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-MID-POINT-ACCUM-PREM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2423 [, CNTCTPGT, MO, , P, P_POLICY_MIDPOINT_CSV, numeric, , 2, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-MID-POINT-CSV, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2424 [, CNTCTPGT, MO, , P, P_POLICY_MIDPOINT_SUMM_ILLUS_DB, numeric, , 3, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-MID-POINT-SUMM-ILLUS, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2425 [, CNTCTPGT, MO, , P, P_POLICY_MIDPOINT_DEATH_BENEFIT, numeric, , 4, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-MID-POINT-DEATH-BEN, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2426 [, CNTCTPGT, MO, , P, P_POLICY_MIDPOINT_ANNUAL_PREMIUM, numeric, , 5, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-MID-POINT-ANN-PREM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2427 [, CNTCTPGT, MO, , P, P_POLICY_CURR_ACCUM_PREM, numeric, , 19, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-CURR-ACCUM-PREM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2428 [, CNTCTPGT, MO, , P, P_POLICY_CURR_CSV, numeric, , 21, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-CURR-CSV, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2429 [, CNTCTPGT, MO, , P, P_POLICY_CURR_SUMM_ILLUS_DB, numeric, , 18, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-CURR-SUMM-ILLUS, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2430 [, CNTCTPGT, MO, , P, P_POLICY_CURR_ANNUAL_DIVIDEND, numeric, , 17, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-CURR-ANN-DIV, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2431 [, CNTCTPGT, MO, , P, P_MODE_PREMIUM, numeric, , 16, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, MODE-PREMIUM, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2432 [, CNTCTPGT, MO, , P, P_POLICY_NET_OUTLAY, numeric, , 22, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-NET-OUTLAY, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2433 [, CNTCTPGT, MO, , P, P_POLICY_CURR_DEATH_BENEFIT, numeric, , 20, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-CURR-DEATH-BEN, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2434 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_DEATH_BENEFIT, numeric, , 12, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-DEATH-BEN, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2435 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_VALUES_DB, numeric, , 13, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-VALUES-DB, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2436 [, CNTCTPGT, MO, , P, P_POLICY_PURE_ENDOWMENT, numeric, , 15, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-PURE-ENDOW-AMT, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2437 [, CNTCTPGT, MO, , P, P_POLICY_ETI_YEARS, numeric, , 23, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-ETI-YEARS, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2438 [, CNTCTPGT, MO, , P, P_POLICY_ETI_MONTHS, numeric, , 24, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-ETI-MONTHS, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2439 [, CNTCTPGT, MO, , P, P_POLICY_GUAR_ACCUM_VALUE, numeric, , 14, POLDUR, PROC, , 5, , RANGE, CO, 1, , , , , , , , , , , , , CO, 120, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVTSPG, POL-GUAR-ACCUM-VALUE, V, VPPARM-DURATION-PROPERTIES, , , , , , , , , , , Located in - Revised Illustration Whole Life. SUBSCRIPTED BY YEAR]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2440
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2441 [, AMTCALC, MO, TRAD-CVG-CURR, A, A_LIFE_VPU, Numeric, , 1, CVG, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1000, , , , , , , , , , , , , , , ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2442 [, AMTCALC, MO, TRAD-CVG-CURR, A, A_LIFE_UNITS, Numeric, , 2, CVG, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TRAD-CVG-CURR, COND, , , PDUP, CP, , CIIVXWLK, CURR-SEG-MNEMONIC, , , , , , , , , , , CP, , , CIUATP05, NUMBER-OF-UNITS, , , , , , , , , , , , , ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2443 [, AMTCALC, MO, TRAD-CVG-CURR, A, A_LIFE_UNITS, Numeric, , 2, CVG, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TRAD-CVG-CURR, COND, , , CVG, CP, , CIIVXWLK, CURR-SEG-MNEMONIC, , , , , , , , , , , CP, , , CIUATC11, NUMBER-OF-UNITS, , , , , , , , , , , , , ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2444 [, AMTCALC, MO, TRAD-CVG-CURR, P, P_CONVERT_UNITS, Numeric, , 1, CVG, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2445
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2446 [, AMTCALC, MO, TRAD-BEN-CURR, A, A_LIFE_VPU, Numeric, , 1, BEN, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1000, , , , , , , , , , , , , , , ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2447 [, AMTCALC, MO, TRAD-BEN-CURR, A, A_LIFE_UNITS, Numeric, , 2, BEN, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUATC11, NUMBER-OF-UNITS, , , , , , , , , , , , , ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2448 [, AMTCALC, MO, TRAD-BEN-CURR, P, P_CONVERT_UNITS, Numeric, , 1, BEN, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2449
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2450
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2451
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2452
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2453
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2454
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2455 [, DMODPAY, MO, , A, A_calc_eff_date, Date, , 1, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, CALC-EFFECTIVE-DATE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2456 [, DMODPAY, MO, , A, A_Company_ID, Alphanum, , 2, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, COMPANY-CODE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2457
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2458 [, DMODPAY, MO, , A, A_plan_code, Alphanum, , 3, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, PLAN-CODE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2459 [, DMODPAY, MO, , A, A_fixed_purchase_series_code, Alphanum, , 4, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, FIXED-PURCHASE-SERIES-CODE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2460 [, DMODPAY, MO, , A, A_variable_purchase_series_code, Alphanum, , 5, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, VARIABLE-PURCHASE-SERIES-CODE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2461 [, DMODPAY, MO, , A, A_benefit_descriptor, Alphanum, , 6, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, BENEFIT-DESCRIPTION-CODE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2462 [, DMODPAY, MO, , A, A_contract_effective_date, Date, , 7, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, CONTRACT-EFF-DATE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2463 [, DMODPAY, MO, , A, A_primary_DOB, Date, , 8, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, ANNUITANT-BIRTH, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2464 [, DMODPAY, MO, , A, A_joint_DOB, Date, , 9, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , MODAL-JOINT, COND, , , 00000000, CP, , CIUAYBP7, JOINT-ANNUITANT-BIRTH, , , , , , , , , , , CP, , , CIUAYBP7, CALC-EFFECTIVE-DATE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2465 [, DMODPAY, MO, , A, A_joint_DOB, Date, , 9, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, JOINT-ANNUITANT-BIRTH, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2466 [, DMODPAY, MO, , A, A_number_of_funds, Numeric, , 10, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, NUMBER-OF-FUNDS, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2467 [, DMODPAY, MO, , A, A_fund_type, Alphanum, , 1, FUNDS, PROC, , 2, , RANGE, CO, 1, , , , , , , , , , , , , CP, , CIUAYBP7, NUMBER-OF-FUNDS, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, FUND-TYPE, V, BENEFIT-AREA, , , , , , , , , , , occurs based on number of funds in input]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2468 [, DMODPAY, MO, , A, A_net_purchase_amount, Numeric, , 2, FUNDS, PROC, , 2, , RANGE, CO, 1, , , , , , , , , , , , , CP, , CIUAYBP7, NUMBER-OF-FUNDS, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAYBP7, GROSS-PURCHASE-AMOUNT, V, BENEFIT-AREA, , , , , , , , , , , occurs based on number of funds in input]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2469 [, DMODPAY, MO, , P, P_MODAL_BENEFIT, Numeric, , 1, MB, PROC, , 1, , RANGE, CO, 1, , , , , , , , , , , , , CP, , CIUAYBP7, NUMBER-OF-FUNDS, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXMBG, MODAL-BENEFIT-VPM, V, BENEFITS, , , , , , , , , , , occurs based on number of funds in input]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2470
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2471
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2472
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2473
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2474 [, ANSURCHG, MO, , A, INPUT TRANSEFFDATE, Date, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAX001, EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2475 [, ANSURCHG, MO, , A, INPUT CALLING PROGRAM, Alphanum, , 2, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , IIVXENG, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2476 [, ANSURCHG, MO, , A, INPUT CALLING SYSTEM, Alphanum, , 3, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , V1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2477 [, ANSURCHG, MO, , A, INPUT POLICY EFFDATE, Date, , 4, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXGBG, EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2478 [, ANSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, , 5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 1, TA, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CO, , 31, , , , , , , , , , , , , , , X only 3 trx codes pass thru]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2479 [, ANSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, , 5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 2, TB, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CO, , 8, , , , , , , , , , , , , , , X only 3 trx codes pass thru]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2480 [, ANSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, , 5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 3, TBS, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CO, , 8, , , , , , , , , , , , , , , X only 3 trx codes pass thru]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2481 [, ANSURCHG, MO, , A, INPUT POLICY INVESTMENT ACCOUNTVALUE, Numeric, , 6, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , AV, COND, OR, 1, TA, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CP, , , CIUAFTA1, SURRENDER-AMT, , , , , , , , , , , , , x field only needed on a TA trx]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2482 [, ANSURCHG, MO, , A, INPUT POLICY ARRANGEMENT TOTALAMT, Numeric, , 7, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TBAMT, COND, OR, 1, TB, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CP, , , CIUAFTB1, SURRENDER-AMT, , , , , , , , , , , , , X only 3 trx codes pass thru]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2483 [, ANSURCHG, MO, , A, INPUT POLICY ARRANGEMENT TOTALAMT, Numeric, , 7, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TBAMT, COND, OR, 2, TBS, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CP, , , CIUAFTB1, SURRENDER-AMT, , , , , , , , , , , , , X only 3 trx codes pass thru]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2484 [, ANSURCHG, MO, , A, INPUT POLICY PRODUCTCODE, Alphanum, O, 8, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , V1PLANTOPAPROD, COND, OR, 1, AN1PA1, CP, , CIIVXGBG, PLAN-CODE, , , , , , , , , , , CO, , SPDA2PA, , , , , , , , , , , , , , , Add or change plan codes supported in CATALOG]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2485 [, ANSURCHG, MO, , A, INPUT POLICY PRODUCTCODE, Alphanum, O, 8, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , V1PLANTOPAPROD, COND, OR, 1, ******, CP, , CIIVXGBG, PLAN-CODE, , , , , , , , , , , CO, , SPDA2PA, , , , , , , , , , , , , , , Default plan code to the only one supported in pA]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2486 [, ANSURCHG, MO, , A, INPUT POLICY CARRIERCODE, Alphanum, , 9, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 00, , , , , , , , , , , , , , , pA Company code in tables]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2487 [, ANSURCHG, MO, , A, INPUT POLICY PRODUCTVERSIONCODE, Alphanum, , 10, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, ,  , , , , , , , , , , , , , , , table variation is a BLANK for pA plans]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2488 [, ANSURCHG, MO, , A, INPUT POLICY JURISDICTION, Alphanum, , 11, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TL, , , , , , , , , , , , , , , ACORDStateCodes, ACORDSTATECODES_VTOAC, x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2489 [, ANSURCHG, MO, , A, INPUT POLICY PARTICIPANT ISSUEAGE, Numeric, , 12, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAFA11, POLICY-ISSUE-AGE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2490 [, ANSURCHG, MO, , A, INPUT POLICY PARTICIPANT ISSUEGENDER, Numeric, , 13, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TL, , , , , , , , , , , , , , , ACORDGender, ACORDGENDER_V1TOAC, x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2491 [, ANSURCHG, MO, , A, INPUT POLICY ANNUITY CUMWTHDRWLAMTYTD, Numeric, , 14, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , FX, , , , , , , , , , , , , , , IIVXSWC, , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2492
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2493
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2494
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2495
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2496
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2497
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2498
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2499
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2500
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2501
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2502
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2503
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2504 [, ANSURCHG, MO, , P, OUTPUT ANNUITY SURRENDER CHARGE, Numeric, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXSPC, SURRENDER-CHARGE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2505 [, ANSURCHG, MO, , P, OUTPUT FREE WITHDRAWAL AMT(16), Numeric, , 2, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , FREEPROPNAME, COND, OR, 1, TA, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CP, , , CIIVXSPC, SURR-CHG-FREE-AMOUNT, , , , , , , , , , , , , free amt name only needed on a TA trx]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2506 [, ANSURCHG, MO, , P, OUTPUT FREE WITHDRAWAL AMT(15), Numeric, , 3, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , FREEPROPNAME, COND, OR, 1, TB, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CP, , , CIIVXSPC, SURR-CHG-FREE-AMOUNT, , , , , , , , , , , , , "free amt name only needed on TB, TBS trxs"]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2507 [, ANSURCHG, MO, , P, OUTPUT FREE WITHDRAWAL AMT(15), Numeric, , 3, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , FREEPROPNAME, COND, OR, 2, TBS, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CP, , , CIIVXSPC, SURR-CHG-FREE-AMOUNT, , , , , , , , , , , , , "free amt name only needed on TB, TBS trxs"]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2508
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2509 [, IIVXSWC, FX, , P, FUNCTION_PROPERTY, Numeric, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2510 [, ACORDStateCodes, TL, ACORDSTATECODES_VTOAC, A, A_V1Statecode, Alphanum, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXGBG, ISSUE-STATE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2511 [, ACORDStateCodes, TL, ACORDSTATECODES_VTOAC, P, P_ACORDStatecode, Alphanum, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2512 [, ACORDGender, TL, ACORDGENDER_V1TOAC, A, A_V1Gender, Alphanum, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAFA11, ANNUITANT-SEX, , , , , , , , , , , , , specific to annuity sex xlate]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2513 [, ACORDGender, TL, ACORDGENDER_V1TOAC, P, P_ACORDGender, Alphanum, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2514
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2515
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2516
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2517
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2518 [, ULSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, O, 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 1, TB, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 8, , , , , , , , , , , , , , , X then conds for just the specific partials]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2519 [, ULSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, O, 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 3, TBS, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 8, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2520 [, ULSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, O, 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 2, TW, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 8, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2521 [, ULSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, O, 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 4, TWS, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 8, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2522 [, ULSURCHG, MO, , A, INPUT POLICY ARRANGEMENT ARRTYPE, Numeric, O, 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 5, ****, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 31, , , , , , , , , , , , , , , X default to full surr arr type value because of all the diff trx codes possible]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2523 [, ULSURCHG, MO, , A, INPUT TRANSEFFDATE, Date, , 2, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAESA2, SURRENDER-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2524 [, ULSURCHG, MO, , A, INPUT CALLING PROGRAM, Alphanum, , 3, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , IIVXENG, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2525 [, ULSURCHG, MO, , A, INPUT CALLING SYSTEM, Alphanum, , 4, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , V1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2526 [, ULSURCHG, MO, , A, INPUT POLICY EFFDATE, Date, , 5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAESA2, POLICY-EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2527 [, ULSURCHG, MO, , A, INPUT POLICY NUMBER OF COVERAGE, Numeric, , 6, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2528 [, ULSURCHG, MO, , A, INPUT POLICY COVERAGE SURRTARGETPREM, Numeric, , 7, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 0, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2529 [, ULSURCHG, MO, , A, INPUT POLICY COVERAGE SURRCHARGEITD, Numeric, , 8, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 0, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2530 [, ULSURCHG, MO, , A, INPUT POLICY PRODUCTCODE, Alphanum, , 9, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXGBG, PLAN-CODE, , , , , , , , , , , , , PLAN CODE NOT V1 PRODUCT CODE]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2531 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT NUMBER OF FEE, Numeric, , 10, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1, , , , , , , , , , , , , , , X WE ONLY PRODUCE ONE FEE]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2532 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE TYPE, Numeric, O, 11, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 1, TB, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 15, , , , , , , , , , , , , , , X then conds for just the specific partials]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2533 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE TYPE, Numeric, O, 11, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 3, TBS, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 15, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2534 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE TYPE, Numeric, O, 11, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 2, TW, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 15, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2535 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE TYPE, Numeric, O, 11, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 4, TWS, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 15, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2536 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE TYPE, Numeric, O, 11, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , REQTRX, COND, OR, 5, ****, CP, , CIUAESA2, REQUEST-TYPE, , , , , , , , , , , CO, , 16, , , , , , , , , , , , , , , X default to full surr fee type value because of all the diff trx codes possible]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2537 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE CHARGEBASEDON, Numeric, , 12, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 2, , , , , , , , , , , , , , , X 2=% OF SURRENDER]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2538 [, ULSURCHG, MO, , A, INPUT POLICY ARRANGEMENT TOTALAMT, Numeric, , 13, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAESA2, TRX-AMOUNT-FOR-FEE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2539 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE TABLEREF TABLEIDENTITY, Alphanum, , 14, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, ,  , , , , , , , , , , , , , , , X LEAVE BLANK]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2540 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE FEEPCT, Numeric, , 15, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAESA2, FLAT-FEE-PCT, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2541 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE SECONDARYCHARGEBASEDON, Numeric, , 16, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1000500022, , , , , , , , , , , , , , , X 1000500022 = NONE]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2542 [, ULSURCHG, MO, , A, INPUT MESSAGE LANGUAGE, Numeric, , 17, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 9, , , , , , , , , , , , , , , X 9=ENGLISH]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2543 [, ULSURCHG, MO, , A, INPUT POLICYPRODUCT FEE TERTIARYCHARGEBASEDON, Numeric, , 18, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1000500022, , , , , , , , , , , , , , , X 1000500022 = NONE]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2544 [, ULSURCHG, MO, , A, INPUT POLICY COVERAGE DEATHBENEFITOPTTYPE, Numeric, , 19, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLTTYPE, COND, OR, 1, L, CP, , CIUAXA11, POLICY-TYPE, , , , , , , , , , , CO, , 1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2545 [, ULSURCHG, MO, , A, INPUT POLICY COVERAGE DEATHBENEFITOPTTYPE, Numeric, , 20, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , POLTTYPE, COND, OR, 1, V, CP, , CIUAXA11, POLICY-TYPE, , , , , , , , , , , CO, , 0, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2546 [, ULSURCHG, MO, , A, INPUT POLICY LIFEPRODUCT WTHDRWLDBDECREASEAMTQUALIFIER, Numeric, , 21, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2547 [, ULSURCHG, MO, , A, INPUT POLICY COVERAGE INDICATORCODE, Numeric, , 22, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2548 [, ULSURCHG, MO, , P, OUTPUT SURRENDER CHARGE, Numeric, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXSPC, SURRENDER-CHARGE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2549
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2550
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2551
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2552
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2553
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2554
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2555
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2556
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2557
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2558 [, SHDWPROJ, MO, , A, A_issue_age, Numeric, , 1, POL, , , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAXA11, POLICY-ISSUE-AGE, , , , , , , , , , , , , x, ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2559 [, SHDWPROJ, MO, , A, A_maturity_age, Numeric, , 2, POL, , , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAXA11, MATURITY-AGE, , , , , , , , , , , , , x, ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2560 [, SHDWPROJ, MO, , A, A_cov_issue_date, Date, , 3, POL, , , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFA, POLICY-EFFECTIVE-DATE, , , , , , , , , , , , , x, ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2561 [, SHDWPROJ, MO, , A, A_number_of_transactions, Numeric, , 4, POL, , , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFA, NUMBER-OF-WITHDRAWALS, , , , , , , , , , , , , x, ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2562 [, SHDWPROJ, MO, , A, A_ROP_Interest_rate, Numeric, , 5, POL, , , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFA, ROP-INTEREST-RATE, , , , , , , , , , , , , x, ]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2563 [, SHDWPROJ, MO, , A, A_valuation_date, Date, , 6, POL, , , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFA, TRANSACTION-EFFECTIVE-DATE, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2564 [, SHDWPROJ, MO, , A, A_trans_efective_date, Date, , 1, ROPTRX, PROC, , 2, , RANGE, CO, 1, , , , , , , , , , , , , CP, , CIIVXHFA, NUMBER-OF-WITHDRAWALS, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFA, WITHDRAWAL-EFFECTIVE-DATE, V, WITHDRAWAL-HISTORY-ARRAY, , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2565 [, SHDWPROJ, MO, , A, A_trans_code, Alphanum, , 2, ROPTRX, PROC, , 2, , RANGE, CO, 1, , , , , , , , , , , , , CP, , CIIVXHFA, NUMBER-OF-WITHDRAWALS, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFA, TRX-CODE, V, WITHDRAWAL-HISTORY-ARRAY, , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2566 [, SHDWPROJ, MO, , A, A_trans_amount, Numeric, , 3, ROPTRX, PROC, , 2, , RANGE, CO, 1, , , , , , , , , , , , , CP, , CIIVXHFA, NUMBER-OF-WITHDRAWALS, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFA, WITHDRAWAL-AMOUNT, V, WITHDRAWAL-HISTORY-ARRAY, , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2567
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2568 [, SHDWPROJ, MO, , P, P_ROP_Rider_Amount, Numeric, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXHFP, ROPR-RIDER-AMOUNT, , , , , , , , , , , , , x]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2569
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2570
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2571
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2572
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2573
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2574 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT TransEffDate, Date, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAX001, EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2575 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy ProductVersionCode, Alphanum, , 2, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, ,  , , , , , , , , , , , , , , , table variation is a BLANK for pA plans]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2576 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy ProductCode, Alphanum, , 3, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , UL1PA, , , , , , , , , , , , , , , Default plan code to the only one supported in pA]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2577 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy LifeUSA GuidelineSinglePrem, Numeric, , 4, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAXA11, GUIDELINE-SINGLE-PREM, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2578 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy LifeUSA GuidelineAnnPrem, Numeric, , 5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAXA11, GUIDELINE-LEVEL-PREM, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2579 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy Life CashValueAmt, Numeric, , 6, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAESE1, SHADOW-ACCT-BALANCE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2580 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy EffDate, Date, , 7, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXGBG, EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2581 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy CoverageOption PremUseCode, Alphanum, , 8, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 0, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2582 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy Coverage ProductVersionCode, Alphanum, , 9, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2583 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy CarrierCode, Alphanum, , 10, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 00, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2584 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Message Language, Numeric, , 11, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 9, , , , , , , , , , , , , , , X 9=ENGLISH]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2585 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Calling System, Alphanum, , 12, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , V1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2586 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Calling Program, Alphanum, , 13, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , IIVXENG, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2587 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, INPUT Policy TermDate, Date, , 14, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAXA11, MATURITY-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2588 [, DULPA, MO, SHADOW-ACCT-VARIATION, A, A_ACORD_ATTRIBUTES_UL_FX, Alphanum, , 15, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , FX, , , , , , , , , , , , , , , IIVEACC, SHADOW-ACCT-VARIATION, X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2589 [, IIVEACC, FX, SHADOW-ACCT-VARIATION, P, FUNCTION_PROPERTY, Numeric, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2590
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2591 [, DULPA, MO, SHADOW-ACCT-VARIATION, P, OUTPUT Total Shadow Target, Numeric, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVESA1, TARGET-LOAD-PREMIUM, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2592
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2593
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2594
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2595
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Skipping line 2596
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2597 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Calling Program, Alphanum, , 1, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , IIVXENG, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2598 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Calling System, Alphanum, , 2, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , V1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2599 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Message Language, Alphanum, , 3, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 9, , , , , , , , , , , , , , , X 9=ENGLISH]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2600 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy CarrierCode, Alphanum, , 4, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 00, , , , , , , , , , , , , , , pA Company code in tables]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2601 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy EffDate, Date, , 5, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXGBG, EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2602 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT TransEffDate, Date, , 6, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAX001, EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2603 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy ProductVersionCode, Alphanum, , 7, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, ,  , , , , , , , , , , , , , , , table variation is a BLANK for pA plans]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2604 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT POLICY PRODUCTCODE, Alphanum, O, 8, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , V1PLANTOPAPROD, COND, OR, 1, AN1PA1, CP, , CIIVXGBG, PLAN-CODE, , , , , , , , , , , CO, , FPA1PA, , , , , , , , , , , , , , , Add or change plan codes supported in CATALOG]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2605 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT POLICY PRODUCTCODE, Alphanum, O, 8, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , V1PLANTOPAPROD, COND, OR, 1, AN1PA2, CP, , CIIVXGBG, PLAN-CODE, , , , , , , , , , , CO, , SPDA1PA, , , , , , , , , , , , , , , Add or change plan codes supported in CATALOG]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2606 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT POLICY PRODUCTCODE, Alphanum, O, 8, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , V1PLANTOPAPROD, COND, OR, 1, ******, CP, , CIIVXGBG, PLAN-CODE, , , , , , , , , , , CP, , , CIIVXGBG, PLAN-CODE, , , , , , , , , , , , , Default plan code to the only one supported in pA]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2607 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy Annuity TotalDepositITD, Numeric, , 9, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAFNA1, TOTAL-CUMULATIVE-PREMIUM, ,  , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2608 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy Jurisdiction, Alphanum, , 10, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TL, , , , , , , , , , , , , , , ACORDStateCodes, ACORDSTATECODES_VTOAC, X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2609 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT PolicyProduct Reward TableRef TableIdentity, Numeric, , 11, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 0, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2610 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT PolicyProduct Reward RewardResultType, Alphanum, , 12, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 0, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2611 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT PolicyProduct Reward RewardPercent, Numeric, , 13, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 0, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2612 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy number of FinancialActivity, Numeric, , 14, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CO, , 1, , , , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2613 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy FinancialActivity FinEffDate, Date, , 15, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAX001, EFFECTIVE-DATE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2614 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy FinancialActivity FinActivityType, Numeric, , 16, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TRX CODE, COND, OR, 1, NA, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CO, , 1, CIUAX001, TRX-CODE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2615 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy FinancialActivity FinActivityType, Numeric, , 16, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , TRX CODE, COND, OR, 1, MA, CP, , CIUAX001, TRX-CODE, , , , , , , , , , , CO, , 230, CIUAX001, TRX-CODE, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2616 [, DFAPA, MO, ANN-PREMIUM-BONUS, A, INPUT Policy FinancialActivity FinActivityGrossAmt, Numeric, , 17, POLICY, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIUAFNA1, PAYMENT-AMOUNT, ,  , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2617 [, DFAPA, MO, ANN-PREMIUM-BONUS, P, OUTPUT Contribution Bonus, Numeric, , 1, PRMBONUS, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXPBR, PREMIUM-BONUS-AMOUNT, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing line 2618 [, DFAPA, MO, ANN-PREMIUM-BONUS, P, OUTPUT Contribution Bonus Percent, Numeric, , 2, PRMBONUS, PROC, , 1, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , CP, , , CIIVXPBR, PREMIUM-BONUS-PERCENT, , , , , , , , , , , , , X]
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Editing complete. Beginning database update...
+Feb 01, 2017 6:17:29 AM com.csc.fsg.life.vpms.datamapper cleanDatabase
+INFO: Deleting mapping info from database...
+Feb 01, 2017 6:20:02 AM com.csc.fsg.life.vpms.datamapper cleanDatabase
+INFO: CleanDatabase successful
+Feb 01, 2017 6:20:02 AM com.csc.fsg.life.vpms.datamapper putVPModl
+INFO: Putting VPMODL... Size: 73
+Feb 01, 2017 6:20:06 AM com.csc.fsg.life.vpms.datamapper putVPCopy
+INFO: Putting VPCOPY... Size: 546
+Feb 01, 2017 6:20:46 AM com.csc.fsg.life.vpms.datamapper putVPGrp
+INFO: Putting VPGRP... Size: 1366
+Feb 01, 2017 6:22:31 AM com.csc.fsg.life.vpms.datamapper putVPDsrc
+INFO: Putting VPDSRC... Size: 741
+Feb 01, 2017 6:23:48 AM com.csc.fsg.life.vpms.datamapper putVPCond
+INFO: Putting VPCOND... Size: 772
+Feb 01, 2017 6:24:45 AM com.csc.fsg.life.vpms.datamapper putVPCogp
+INFO: Putting VPCOGP... Size: 1462
+Feb 01, 2017 6:25:11 AM com.csc.fsg.life.vpms.datamapper putVPElem
+INFO: Putting VPELEM... Size: 1280
+Feb 01, 2017 6:26:57 AM com.csc.fsg.life.vpms.datamapper putVPSubPrgp
+INFO: Putting VPSubPRGP... Size: 4
+Feb 01, 2017 6:26:57 AM com.csc.fsg.life.vpms.datamapper putVPPrgp
+INFO: Putting VPPRGP... Size: 167
+Feb 01, 2017 6:27:22 AM com.csc.fsg.life.vpms.datamapper putVPElrl
+INFO: Putting VPELRL... Size: 1281
+Feb 01, 2017 6:27:44 AM com.csc.fsg.life.vpms.datamapper putToDatabase
+INFO: Database I/O Elapsed Time: 615577 ms
+Feb 01, 2017 6:27:44 AM com.csc.fsg.life.vpms.datamapper readInputFile
+INFO: Mapping Load complete: 2618 records loaded
+Feb 01, 2017 6:27:44 AM com.csc.fsg.life.vpms.datamapper finish
+INFO: Putting VPGRPC...
+Feb 01, 2017 6:27:46 AM com.csc.fsg.life.vpms.datamapper finish
+INFO: Putting VPGRPP...
+Feb 01, 2017 6:27:46 AM com.csc.fsg.life.vpms.datamapper finish
+INFO: Writing VPELCD...
+Feb 01, 2017 6:27:46 AM com.csc.fsg.life.vpms.datamapper main
+INFO: Data Mapping Load Utility has successfully completed the run.

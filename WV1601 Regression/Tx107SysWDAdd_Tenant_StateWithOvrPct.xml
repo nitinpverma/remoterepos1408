@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>Test_1</TransRefGUID>
+		<TransType tc="107"/>
+                                           <TransSubType tc="1000500040"/>
+		<OLifE>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy id="Policy_1">
+					<PolNumber>rgr1601-gktent2</PolNumber>
+					<ProductType tc="9"/>
+					<CarrierCode>VCS</CarrierCode>
+					<FinancialActivity id="FinAct_1">
+						<FinActivityType tc="101"/>
+					</FinancialActivity>
+				</Policy>
+				<Arrangement id="Arrangement_1">
+					<ArrMode tc="3"/>
+					<ArrType tc="14"/>
+					<StartDate>2003-01-01</StartDate>
+					<EndDate>2008-01-01</EndDate>
+					<ArrDestination id="ArrDest_1" PaymentPartyID="Party_1">
+						<TransferPct>50</TransferPct>
+						<OLifEExtension VendorCode="">
+							<ArrDestinationExtension>
+								<PaymentForm tc="9"/>
+							</ArrDestinationExtension>
+						</OLifEExtension>
+					</ArrDestination>
+					<ArrDestination id="ArrDest_2" PaymentPartyID="Party_2">
+						<TransferPct>50</TransferPct>
+						<OLifEExtension VendorCode="">
+							<ArrDestinationExtension>
+								<PaymentForm tc="1"/>
+							</ArrDestinationExtension>
+						</OLifEExtension>
+					</ArrDestination>
+					<TaxWithholding id="TaxWithholding_1" AppliesToPartyID="Party_1">
+						<TaxWithholdingPlace tc="2"/>
+						<TaxDisbursementType tc="19"/>
+						<TaxWithheldPct>20</TaxWithheldPct>
+						<OLifEExtension VendorCode="">
+							<TaxWithholdingExtension>
+								<TaxWithholdingPercentBasis tc="1"/>
+							</TaxWithholdingExtension>
+						</OLifEExtension>
+					</TaxWithholding>
+					<TaxWithholding id="TaxWithholding_2" AppliesToPartyID="Party_2">
+						<TaxWithholdingPlace tc="2"/>
+						<TaxDisbursementType tc="19"/>
+						<TaxWithheldPct>15</TaxWithheldPct>
+						<OLifEExtension VendorCode="">
+							<TaxWithholdingExtension>
+								<TaxWithholdingPercentBasis tc="1"/>
+							</TaxWithholdingExtension>
+						</OLifEExtension>
+					</TaxWithholding>
+					<OLifEExtension VendorCode="">
+						<ArrangementExtension>
+							<TransactionEffectiveDate>2002-02-01</TransactionEffectiveDate>
+							<AltPayRemain tc="1000500004"/>
+							<ModalPct>20.0</ModalPct>
+							<SourceTransferAmtType tc="6"/>
+						</ArrangementExtension>
+					</OLifEExtension>
+				</Arrangement>
+			</Holding>
+			<Party id="Party_1">
+				<PartyTypeCode tc="1"/>
+				<PartyKey>000000000003370</PartyKey>
+				<Person DataRep="Removed"/>
+			</Party>
+			<Party id="Party_2">
+				<PartyTypeCode tc="1"/>
+				<PartyKey>000000000003426</PartyKey>
+				<Person DataRep="Removed"/>
+			</Party>
+			<Relation id="Relation_1" OriginatingObjectID="Holding_1" RelatedObjectID="Party_1">
+				<RelationRoleCode tc="1000500007"/>
+			</Relation>
+			<Relation id="Relation_2" OriginatingObjectID="Holding_1" RelatedObjectID="Party_2">
+				<RelationRoleCode tc="1000500007"/>
+			</Relation>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

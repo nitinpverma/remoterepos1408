@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<UserAuthRequest>
+		<UserLoginName/>
+		<UserPswd>
+			<CryptType/>
+			<Pswd/>
+		</UserPswd>
+		<UserDomain/>
+		<VendorApp>
+			<VendorName VendorCode="1"/>
+			<AppName/>
+			<AppVer/>
+		</VendorApp>
+		<ProxyVendor>
+			<VendorName VendorCode="1"/>
+			<AppName/>
+			<AppVer/>
+			<SeqNum>1</SeqNum>
+		</ProxyVendor>
+	</UserAuthRequest>
+	<TXLifeRequest>
+		<TransRefGUID/>
+		<TransType tc="103"/>
+		<OLifE Version="1">
+			<SourceInfo>
+				<SourceInfoName/>
+				<SourceInfoDescription/>
+				<SourceInfoComment/>
+				<FileControlID/>
+			</SourceInfo>
+			<Holding id="holding_1" DataRep="Full">
+				<HoldingKey Persist="Session"/>
+				<HoldingTypeCode tc="2"/>
+				<CommissionHoldInd tc="0"/>
+				<Policy id="Holding_1" ProductID="Holding_1" DataRep="Full">
+					<CarrierAdminSystem/>
+					<PolNumber>ENH1053UL001</PolNumber>
+					<LineOfBusiness tc="0"/>
+					<ProductType tc="3"/>
+					<ProductCode>BNSINT</ProductCode>
+					<CarrierCode>VCS</CarrierCode>
+					<AdministeringCarrierCode/>
+					<PolicyStatus tc="0"/>
+					<Jurisdiction tc="8"/>
+					<BillNumber>client1</BillNumber>
+					<EffDate>2002-02-02</EffDate>
+					<PaidToDate>2002-02-02</PaidToDate>
+					<BilledToDate>2002-02-02</BilledToDate>
+					<PaymentMode tc="4"/>
+					<PaymentAmt>6000.00</PaymentAmt>
+					<PaymentMethod tc="2"/>
+					<Life>
+						<QualPlanType tc="2147483647"/>
+						<FaceUnits>100</FaceUnits>
+						<Coverage id="Cov_1">
+							<ProductCode>BNSINT</ProductCode>
+							<IndicatorCode tc="1"/>
+							<LivesType tc="1"/>
+							<DeathBenefitOptType tc="1"/>
+							<CurrentNumberOfUnits/>
+							<EffDate>2002-02-02</EffDate>
+							<TermDate>2045-02-02</TermDate>
+							<CovOption id="Covopt_1" LifeParticipantRefID="Lifepart_1">
+								<ProductCode>ABRGLP</ProductCode>
+								<LifeCovOptTypeCode tc="1"/>
+								<EffDate>2002-02-02</EffDate>
+								<PermPercentageLoading>2.0</PermPercentageLoading>
+							</CovOption>
+							<LifeParticipant id="Lifepart_1" PartyID="Party_1">
+								<LifeParticipantRoleCode tc="1"/>
+							</LifeParticipant>
+							<OLifEExtension VendorCode="">
+								<CoverageExtension>
+									<ExcludeChildInd tc="0"/>
+									<RateClass>1</RateClass>
+								</CoverageExtension>
+							</OLifEExtension>
+						</Coverage>
+						<LifeUSA>
+							<MECInd tc="0"/>
+							<TaxGrandfatheredType tc="1"/>
+						</LifeUSA>
+						<OLifEExtension VendorCode="">
+							<LifeExtension>
+								<PremType tc="2"/>
+							</LifeExtension>
+						</OLifEExtension>
+					</Life>
+					<ApplicationInfo>
+						<ApplicationType tc="1"/>
+						<SignedDate>2002-02-02</SignedDate>
+					</ApplicationInfo>
+					<FinancialActivity id="finact_1" DataRep="Full">
+						<FinActivityType tc="0"/>
+					</FinancialActivity>
+					<OLifEExtension VendorCode="">
+						<PolicyExtension>
+							<ProxyType tc="1"/>
+							<MailCodes id="Mail_1">
+								<MailCodeType tc="3"/>
+								<MailCode tc="3"/>
+							</MailCodes>
+							<MailCodes id="Mail_2">
+								<MailCodeType tc="4"/>
+								<MailCode tc="3"/>
+							</MailCodes>
+							<MailCodes id="Mail_3">
+								<MailCodeType tc="5"/>
+								<MailCode tc="3"/>
+							</MailCodes>
+							<MailCodes id="Mail_4">
+								<MailCodeType tc="6"/>
+								<MailCode tc="3"/>
+							</MailCodes>
+							<MailCodes id="Mail_5">
+								<MailCodeType tc="9"/>
+								<MailCode tc="3"/>
+							</MailCodes>
+							<MailCodes id="Mail_6">
+								<MailCodeType tc="1"/>
+								<MailCode tc="1"/>
+							</MailCodes>
+							<LoanInterestBill tc="2"/>
+						</PolicyExtension>
+					</OLifEExtension>
+				</Policy>
+				<Investment>
+					<SubAccount>
+						<SubAccountKey/>
+						<SubAcctStatus tc="0"/>
+						<ProductCode>005</ProductCode>
+						<AllocPercent>100.0</AllocPercent>
+					</SubAccount>
+				</Investment>
+			</Holding>
+			<Party id="Party_1" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<GovtID>585236333</GovtID>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCountry tc="1"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Person DataRep="Full">
+					<PersonKey Persist="Session"/>
+					<FirstName>Trad</FirstName>
+					<MiddleName>middle</MiddleName>
+					<LastName>Test</LastName>
+					<Initials/>
+					<Prefix>Dr</Prefix>
+					<Suffix>MD</Suffix>
+					<Occupation/>
+					<MarStat tc="0"/>
+					<Gender tc="1"/>
+					<BirthDate>1973-06-26</BirthDate>
+					<Citizenship tc="1"/>
+					<ImmigrationStatus tc="8"/>
+					<OLifEExtension/>
+				</Person>
+				<Address DataRep="Full">
+					<AddressKey Persist="Session"/>
+					<AddressTypeCode tc="0"/>
+					<AttentionLine/>
+					<Line1>fbo Pat O'brien</Line1>
+					<Line2>P.o. Box 123</Line2>
+					<Line3>8765 58th st</Line3>
+					<City>Hartford</City>
+					<AddressState/>
+					<AddressStateTC tc="8"/>
+					<Zip>66565</Zip>
+					<AddressCountry/>
+					<AddressCountryTC tc="1"/>
+					<PrefAddr tc="0"/>
+				</Address>
+			</Party>
+			<Party id="Party_12" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization>
+					<DBA>Security Life of Denver</DBA>
+				</Organization>
+			</Party>
+			<Party id="Party_4" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization/>
+				<Producer DataRep="Full">
+					<ProducerKey Persist="Session"/>
+					<Certification/>
+					<CarrierAppointment id="CarrierA_1" PartyID="Party_4" DataRep="Full">
+						<CarrierAppointmentKey Persist="Session"/>
+						<CompanyProducerID>123</CompanyProducerID>
+						<CarrierCode>VCS</CarrierCode>
+						<CarrierName/>
+						<ApptCounty>
+							<ApptCountyTC tc="0"/>
+						</ApptCounty>
+						<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+					</CarrierAppointment>
+					<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+				</Producer>
+			</Party>
+			<Party id="Party_5" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization/>
+				<Producer DataRep="Full">
+					<ProducerKey Persist="Session"/>
+					<Certification/>
+					<CarrierAppointment id="CarrierA_2" PartyID="Party_5" DataRep="Full">
+						<CarrierAppointmentKey Persist="Session"/>
+						<CompanyProducerID>567888</CompanyProducerID>
+						<CarrierCode>VCS</CarrierCode>
+						<CarrierName/>
+						<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+					</CarrierAppointment>
+					<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+				</Producer>
+			</Party>
+			<Party id="Party_6" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization/>
+				<Producer DataRep="Full">
+					<ProducerKey Persist="Session"/>
+					<Certification/>
+					<CarrierAppointment id="CarrierA_3" PartyID="Party_6" DataRep="Full">
+						<CarrierAppointmentKey Persist="Session"/>
+						<CompanyProducerID>89078</CompanyProducerID>
+						<CarrierCode>VCS</CarrierCode>
+						<CarrierName/>
+						<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+					</CarrierAppointment>
+					<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+				</Producer>
+			</Party>
+			<Party id="Party_11" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization/>
+				<Producer DataRep="Full">
+					<ProducerKey Persist="Session"/>
+					<Certification/>
+					<CarrierAppointment id="CarrierA_4" PartyID="Party_11" DataRep="Full">
+						<CarrierAppointmentKey Persist="Session"/>
+						<CompanyProducerID>666666</CompanyProducerID>
+						<CarrierCode>VCS</CarrierCode>
+						<CarrierName/>
+						<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+					</CarrierAppointment>
+					<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+				</Producer>
+			</Party>
+			<Party id="Party_7" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization/>
+				<Producer DataRep="Full">
+					<ProducerKey Persist="Session"/>
+					<Certification/>
+					<CarrierAppointment id="CarrierA_10" PartyID="Party_7" DataRep="Full">
+						<CarrierAppointmentKey Persist="Session"/>
+						<CompanyProducerID>2345</CompanyProducerID>
+						<CarrierCode>VCS</CarrierCode>
+						<CarrierName/>
+						<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+					</CarrierAppointment>
+					<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+				</Producer>
+			</Party>
+			<Party id="Party_8" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization/>
+				<Producer DataRep="Full">
+					<ProducerKey Persist="Session"/>
+					<Certification/>
+					<CarrierAppointment id="CarrierA_11" PartyID="Party_8" DataRep="Full">
+						<CarrierAppointmentKey Persist="Session"/>
+						<CompanyProducerID>99999</CompanyProducerID>
+						<CarrierCode>VCS</CarrierCode>
+						<CarrierName/>
+						<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+					</CarrierAppointment>
+					<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+				</Producer>
+			</Party>
+			<Party id="Party_13" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID/>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Organization>
+					<DBA>Reinsurance Company</DBA>
+				</Organization>
+				<Producer DataRep="Full">
+					<ProducerKey Persist="Session"/>
+					<Certification/>
+					<CarrierAppointment id="CarrierA_14" PartyID="Party_8" DataRep="Full">
+						<CarrierAppointmentKey Persist="Session"/>
+						<CompanyProducerID>99999</CompanyProducerID>
+						<CarrierCode>VCS</CarrierCode>
+						<CarrierName/>
+						<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+					</CarrierAppointment>
+					<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+				</Producer>
+			</Party>
+			<Party id="Party_31" DataRep="Full">
+				<PartyTypeCode tc="1"/>
+				<PartyKey Persist="Session"/>
+				<GovtID>912873333</GovtID>
+				<GovtIDStat tc="1"/>
+				<GovtIDTC tc="1"/>
+				<ResidenceState tc="8"/>
+				<ResidenceCounty/>
+				<ResidenceZip/>
+				<Person DataRep="Full">
+					<PersonKey Persist="Session"/>
+					<FirstName>Jonas</FirstName>
+					<MiddleName>L</MiddleName>
+					<LastName>Ryan</LastName>
+					<Initials/>
+					<Prefix/>
+					<Suffix/>
+					<Occupation/>
+					<MarStat tc="0"/>
+					<Gender tc="1"/>
+					<BirthDate>1979-09-10</BirthDate>
+					<OLifEExtension/>
+				</Person>
+				<Address DataRep="Full">
+					<AddressKey Persist="Session"/>
+					<AddressTypeCode tc="0"/>
+					<AttentionLine/>
+					<Line1>attn:  Office</Line1>
+					<Line2>P.o. Box 123</Line2>
+					<Line3>8765 58th st</Line3>
+					<City>Hartford</City>
+					<AddressState/>
+					<AddressStateTC tc="8"/>
+					<Zip>66565</Zip>
+					<AddressCountry/>
+					<AddressCountryTC tc="1"/>
+					<PrefAddr tc="0"/>
+				</Address>
+			</Party>
+			<Relation id="Relation_1_31" OriginatingObjectID="holding_1" RelatedObjectID="Party_1">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="31"/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_1" OriginatingObjectID="holding_1" RelatedObjectID="Party_1">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="32"/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_20" OriginatingObjectID="holding_1" RelatedObjectID="Party_1">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="8"/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_12" OriginatingObjectID="holding_1" RelatedObjectID="Party_12">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="143"/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_4" OriginatingObjectID="holding_1" RelatedObjectID="Party_4">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="37"/>
+				<InterestPercent>50.0</InterestPercent>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+				<OLifEExtension VendorCode="">
+					<RelationProducerExtension ProducerRelationID="Producer_2">
+						<SituationCode>001</SituationCode>
+						<CommAdvancedInd tc="1"/>
+						<RenewalInterestPercent>50.0</RenewalInterestPercent>
+					</RelationProducerExtension>
+				</OLifEExtension>
+			</Relation>
+			<Relation id="Relation_5" OriginatingObjectID="Party_4" RelatedObjectID="Party_5">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="121"/>
+				<InterestPercent/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_6" OriginatingObjectID="holding_1" RelatedObjectID="Party_6">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="52"/>
+				<InterestPercent>50.0</InterestPercent>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+				<OLifEExtension VendorCode="">
+					<RelationProducerExtension ProducerRelationID="Producer_6">
+						<SituationCode>020</SituationCode>
+						<RenewalInterestPercent>50.0</RenewalInterestPercent>
+					</RelationProducerExtension>
+				</OLifEExtension>
+			</Relation>
+			<Relation id="Relation_11" OriginatingObjectID="Party_6" RelatedObjectID="Party_11">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="121"/>
+				<InterestPercent/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_7" OriginatingObjectID="Holding_1" RelatedObjectID="Party_7">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="154"/>
+				<InterestPercent/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_8" OriginatingObjectID="Holding_1" RelatedObjectID="Party_8">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="38"/>
+				<InterestPercent/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_13" OriginatingObjectID="Holding_1" RelatedObjectID="Party_13">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="143"/>
+				<InterestPercent/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<Relation id="Relation_31" OriginatingObjectID="holding_1" RelatedObjectID="Party_31">
+				<RelationKey Persist="Session"/>
+				<OriginatingObjectType tc="6"/>
+				<RelatedObjectType tc="4"/>
+				<RelationRoleCode tc="5"/>
+				<BeneficiaryDesignation tc="0"/>
+				<IrrevokableInd tc="0"/>
+			</Relation>
+			<OLifEExtension VendorCode="1" ExtensionCode="1" DataRep="Full"/>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

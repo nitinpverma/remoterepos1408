@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>GK_1</TransRefGUID>
+		<TransType tc="107"/>
+		<TransSubType tc="1000500040"/>
+		<OLifE>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy id="Policy_1">
+					<PolNumber>REGR1601GK2</PolNumber>
+					<ProductType tc="9"/>
+					<CarrierCode>vcs</CarrierCode>
+					<FinancialActivity id="FinAct_1">
+						<FinActivityType tc="101"/>
+					</FinancialActivity>
+				</Policy>
+				<Arrangement id="Arrangement_1">
+					<ArrMode tc="4"/>
+					<ArrType tc="10"/>
+					<StartDate>2009-02-02</StartDate>
+					<EndDate>2015-02-02</EndDate>
+					<PaymentForm tc="1"/>
+					<OLifEExtension VendorCode="">
+						<ArrangementExtension>
+							<TransactionEffectiveDate>2008-02-02</TransactionEffectiveDate>
+							<OverrideSurrenderLimits tc="1"/>
+							<OverrideTransactionFee tc="1"/>
+							<AltPayRemain tc="1000500003"/>
+							<SourceTransferAmtType tc="6"/>
+						</ArrangementExtension>
+					</OLifEExtension>
+				</Arrangement>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>

@@ -4,7 +4,8 @@
 	<TXLifeRequest>
 		<TransRefGUID>bene add ann</TransRefGUID>
 		<TransType tc="502"/>
-		<ChangeSubType ChangeID="Relation_1" id="change_1a">
+		<ChangeSubType ChangeID="Relation_1" id="change_1a">  changes
+
 			<ChangeTC tc="22">Role</ChangeTC>
 			<TranContentCode tc="2"/>
 			<ElementName>BeneficiaryDesignation</ElementName>

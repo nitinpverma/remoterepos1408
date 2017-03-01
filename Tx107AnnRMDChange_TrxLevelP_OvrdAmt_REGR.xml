@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Sharon Ryan (CSC Financial Services Group) -->
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ACORD.org/Standards/Life/2" xsi:noNamespaceSchemaLocation="C:\XMLGateway\schemafiles\TXLife2.8.92.xsd">
+	<TXLifeRequest>
+		<TransRefGUID>RMD_Change</TransRefGUID>
+		<TransType tc="107"/>
+		<TransSubType tc="1000500043"/>
+		<ChangeSubType ChangeID="Arrangement_1" id="change_1">
+			<ChangeTC tc="21"/>
+			<TranContentCode tc="2">Update</TranContentCode>
+			<ElementName>SourceTransferAmtType</ElementName>
+		</ChangeSubType>
+		<ChangeSubType ChangeID="Arrangement_1" id="change_2">
+			<ChangeTC tc="21"/>
+			<TranContentCode tc="2">Update</TranContentCode>
+			<ElementName>TotalAmt</ElementName>
+		</ChangeSubType>
+		<OLifE>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2"/>
+				<Policy id="Policy_1">
+					<PolNumber>REGR1601RMD15</PolNumber>
+					<ProductType tc="9"/>
+					<CarrierCode>VCS</CarrierCode>
+					<FinancialActivity id="FinAct_1">
+						<FinActivityType tc="102"/>
+						<OLifEExtension VendorCode=""/>
+					</FinancialActivity>
+				</Policy>
+				<Arrangement id="Arrangement_1">
+					<TotalAmt>500.00</TotalAmt>
+					<OLifEExtension VendorCode="">
+						<ArrangementExtension>
+							<TransactionEffectiveDate>2002-02-03</TransactionEffectiveDate>
+							<SourceTransferAmtType tc="6"/>
+						</ArrangementExtension>
+					</OLifEExtension>
+				</Arrangement>
+			</Holding>
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>
